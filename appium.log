@@ -1,0 +1,84 @@
+[35m[Appium][39m Welcome to Appium v1.15.1
+[35m[Appium][39m Non-default server args:
+[35m[Appium][39m   port: 31653
+[35m[Appium][39m   loglevel: info
+[35m[Appium][39m   chromeDriverPort: 31654
+[35m[Appium][39m   tmpDir: C:\Users\admin\AppData\Local\Temp\\Katalon\Appium\Temp1582477115177
+[35m[Appium][39m Appium REST http interface listener started on 0.0.0.0:31653
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m13 ms - 68[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m2 ms - 68[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session[39m
+[35m[HTTP][39m [90m{"desiredCapabilities":{"app":"C:\\Users\\admin\\Documents\\Prepare for New Job\\halodoc\\Halodoc Doctors Medicine Appointments_v6.600_apkpure.com.apk","noReset":true,"deviceName":"asus ASUS_X017DA (Android 9)","fullReset":false,"platform":"ANDROID","newCommandTimeout":1800,"platformVersion":"9","automationName":"uiautomator2","autoGrantPermissions":true,"platformName":"Android","udid":"J4AXGF06M964C44","systemPort":31663},"capabilities":{"firstMatch":[{"appium:app":"C:\\Users\\admin\\Documents\\Prepare for New Job\\halodoc\\Halodoc Doctors Medicine Appointments_v6.600_apkpure.com.apk","appium:autoGrantPermissions":true,"appium:automationName":"uiautomator2","appium:deviceName":"asus ASUS_X017DA (Android 9)","appium:fullReset":false,"appium:newCommandTimeout":1800,"appium:noReset":true,"platform":"ANDROID","platformName":"android","appium:platformVersion":"9","appium:systemPort":31663,"appium:udid":"J4AXGF06M964C44"}]}}[39m
+[35m[BaseDriver][39m The capabilities ["platform"] are not standard capabilities and should have an extension prefix
+[35m[Appium][39m Appium v1.15.1 creating new AndroidUiautomator2Driver (v1.37.2) session
+[35m[BaseDriver][39m The following capabilities were provided, but are not recognized by Appium:
+[35m[BaseDriver][39m   platform
+[35m[BaseDriver][39m Session created with session id: 835b3cd6-962c-436a-a77e-03f95999cb42
+[35m[BaseDriver][39m Using local app 'C:\Users\admin\Documents\Prepare for New Job\halodoc\Halodoc Doctors Medicine Appointments_v6.600_apkpure.com.apk'
+[35m[ADB][39m Found 1 'build-tools' folders under 'C:\Users\admin\.katalon\tools\android_sdk' (newest first):
+[35m[ADB][39m     C:/Users/admin/.katalon/tools/android_sdk/build-tools/29.0.2
+[35m[ADB][39m Using 'adb.exe' from 'C:\Users\admin\.katalon\tools\android_sdk\platform-tools\adb.exe'
+[35m[AndroidDriver][39m Retrieving device list
+[35m[AndroidDriver][39m Using device: J4AXGF06M964C44
+[35m[ADB][39m Using 'adb.exe' from 'C:\Users\admin\.katalon\tools\android_sdk\platform-tools\adb.exe'
+[35m[UiAutomator2][39m Relaxing hidden api policy
+[35m[ADB][39m Using the alternative activity name detection method because of: Could not find 'apkanalyzer.bat' in ["C:\\Users\\admin\\.katalon\\tools\\android_sdk\\platform-tools\\apkanalyzer.bat","C:\\Users\\admin\\.katalon\\tools\\android_sdk\\emulator\\apkanalyzer.bat","C:\\Users\\admin\\.katalon\\tools\\android_sdk\\tools\\apkanalyzer.bat","C:\\Users\\admin\\.katalon\\tools\\android_sdk\\tools\\bin\\apkanalyzer.bat","C:\\Users\\admin\\.katalon\\tools\\android_sdk\\build-tools\\29.0.2\\apkanalyzer.bat"]. Do you have Android Build Tools installed at 'C:\Users\admin\.katalon\tools\android_sdk'?
+[35m[ADB][39m Using 'aapt.exe' from 'C:\Users\admin\.katalon\tools\android_sdk\build-tools\29.0.2\aapt.exe'
+[35m[ADB][39m Extracting package and launch activity from manifest
+[35m[ADB][39m Package name: 'com.linkdokter.halodoc.android'
+[35m[ADB][39m Main activity name: 'com.linkdokter.halodoc.android.ui.activity.SplashActivity'
+[35m[ADB][39m Cannot extract apk info using apkanalyzer. Falling back to aapt. Original error: Could not find 'apkanalyzer.bat' in ["C:\\Users\\admin\\.katalon\\tools\\android_sdk\\platform-tools\\apkanalyzer.bat","C:\\Users\\admin\\.katalon\\tools\\android_sdk\\emulator\\apkanalyzer.bat","C:\\Users\\admin\\.katalon\\tools\\android_sdk\\tools\\apkanalyzer.bat","C:\\Users\\admin\\.katalon\\tools\\android_sdk\\tools\\bin\\apkanalyzer.bat","C:\\Users\\admin\\.katalon\\tools\\android_sdk\\build-tools\\29.0.2\\apkanalyzer.bat"]. Do you have Android Build Tools installed at 'C:\Users\admin\.katalon\tools\android_sdk'?
+[35m[ADB][39m Cannot extract apk info using apkanalyzer. Falling back to aapt. Original error: Could not find 'apkanalyzer.bat' in ["C:\\Users\\admin\\.katalon\\tools\\android_sdk\\platform-tools\\apkanalyzer.bat","C:\\Users\\admin\\.katalon\\tools\\android_sdk\\emulator\\apkanalyzer.bat","C:\\Users\\admin\\.katalon\\tools\\android_sdk\\tools\\apkanalyzer.bat","C:\\Users\\admin\\.katalon\\tools\\android_sdk\\tools\\bin\\apkanalyzer.bat","C:\\Users\\admin\\.katalon\\tools\\android_sdk\\build-tools\\29.0.2\\apkanalyzer.bat"]. Do you have Android Build Tools installed at 'C:\Users\admin\.katalon\tools\android_sdk'?
+[35m[ADB][39m Using 'apksigner.bat' from 'C:\Users\admin\.katalon\tools\android_sdk\build-tools\29.0.2\apksigner.bat'
+[35m[UiAutomator2][39m Server packages are not going to be (re)installed
+[35m[ADB][39m Cannot extract apk info using apkanalyzer. Falling back to aapt. Original error: Could not find 'apkanalyzer.bat' in ["C:\\Users\\admin\\.katalon\\tools\\android_sdk\\platform-tools\\apkanalyzer.bat","C:\\Users\\admin\\.katalon\\tools\\android_sdk\\emulator\\apkanalyzer.bat","C:\\Users\\admin\\.katalon\\tools\\android_sdk\\tools\\apkanalyzer.bat","C:\\Users\\admin\\.katalon\\tools\\android_sdk\\tools\\bin\\apkanalyzer.bat","C:\\Users\\admin\\.katalon\\tools\\android_sdk\\build-tools\\29.0.2\\apkanalyzer.bat"]. Do you have Android Build Tools installed at 'C:\Users\admin\.katalon\tools\android_sdk'?
+[35m[UiAutomator2][39m Starting UIAutomator2 server 4.3.0
+[35m[UiAutomator2][39m Using UIAutomator2 server from 'C:\Users\admin\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v4.3.0.apk' and test from 'C:\Users\admin\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk'
+[35m[UiAutomator2][39m Waiting up to 30000ms for UiAutomator2 to be online...
+[35m[WD Proxy][39m Got an unexpected response with status undefined: {"code":"ECONNRESET"}
+[35m[WD Proxy][39m Got an unexpected response with status undefined: {"code":"ECONNRESET"}
+[35m[WD Proxy][39m Got an unexpected response with status undefined: {"code":"ECONNRESET"}
+[35m[WD Proxy][39m Got an unexpected response with status undefined: {"code":"ECONNRESET"}
+[35m[WD Proxy][39m Determined the downstream protocol as 'W3C'
+[35m[AndroidDriver][39m Screen already unlocked, doing nothing
+[35m[UiAutomator2][39m Starting 'com.linkdokter.halodoc.android/com.linkdokter.halodoc.android.ui.activity.SplashActivity and waiting for 'com.linkdokter.halodoc.android/com.linkdokter.halodoc.android.ui.activity.SplashActivity'
+[35m[Appium][39m New AndroidUiautomator2Driver session created successfully, session 835b3cd6-962c-436a-a77e-03f95999cb42 added to master session list
+[35m[HTTP][39m [37m<-- POST /wd/hub/session [39m[32m200[39m [90m16540 ms - 1366[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/835b3cd6-962c-436a-a77e-03f95999cb42[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/835b3cd6-962c-436a-a77e-03f95999cb42 [39m[32m200[39m [90m105 ms - 1298[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/835b3cd6-962c-436a-a77e-03f95999cb42[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/835b3cd6-962c-436a-a77e-03f95999cb42 [39m[32m200[39m [90m30 ms - 1298[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m2 ms - 68[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/835b3cd6-962c-436a-a77e-03f95999cb42/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":60000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/835b3cd6-962c-436a-a77e-03f95999cb42/timeouts [39m[32m200[39m [90m4 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/835b3cd6-962c-436a-a77e-03f95999cb42/source[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (835b3cd6)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 52b54a70-dabc-4066-a5d2-c40cebb36c88 with 835b3cd6-962c-436a-a77e-03f95999cb42
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/835b3cd6-962c-436a-a77e-03f95999cb42/source [39m[32m200[39m [90m910 ms - 21322[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/835b3cd6-962c-436a-a77e-03f95999cb42/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/835b3cd6-962c-436a-a77e-03f95999cb42/screenshot [39m[32m200[39m [90m1074 ms - 506360[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mDELETE[39m [37m/wd/hub/session/835b3cd6-962c-436a-a77e-03f95999cb42[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[Appium][39m Removing session 835b3cd6-962c-436a-a77e-03f95999cb42 from our master session list
+[35m[UiAutomator2][39m Restoring hidden api policy to the device default configuration
+[35m[HTTP][39m [37m<-- DELETE /wd/hub/session/835b3cd6-962c-436a-a77e-03f95999cb42 [39m[32m200[39m [90m987 ms - 14[39m
