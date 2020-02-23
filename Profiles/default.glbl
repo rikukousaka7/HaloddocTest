@@ -4,4 +4,14 @@
    <name>default</name>
    <tag></tag>
    <defaultProfile>true</defaultProfile>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'C:\\Users\\admin\\Documents\\Prepare for New Job\\halodoc\\Halodoc Doctors Medicine Appointments_v6.600_apkpure.com.apk'</initValue>
+      <name>APK</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'081239301331'</initValue>
+      <name>PhoneNum</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

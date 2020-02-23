@@ -15,23 +15,13 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-Mobile.startExistingApplication(GlobalVariable.APK, FailureHandling.STOP_ON_FAILURE)
+Mobile.tap(findTestObject('Dashboard/btn_More'), 0)
 
-Mobile.waitForElementPresent(findTestObject('Provisioning/txtview_NomorPonsel'), 0)
+Mobile.waitForElementPresent(findTestObject('Logout/titleview_Lainnya'), 0)
 
-Mobile.tap(findTestObject('Provisioning/edittxt_NomorPonsel'), 0)
+Mobile.tap(findTestObject('Logout/btn_Logout'), 0)
 
-Mobile.waitForElementPresent(findTestObject('Provisioning/titletxt_InsertNumber'), 0)
+Mobile.waitForElementPresent(findTestObject('Logout/txtview_LogoutTitle'), 0)
 
-Mobile.setText(findTestObject('Provisioning/edittxt_PhoneNumVerif'), GlobalVariable.PhoneNum, 0)
-
-Mobile.hideKeyboard()
-
-Mobile.tap(findTestObject('Provisioning/btn_TermNCond'), 0)
-
-Mobile.waitForElementPresent(findTestObject('Provisioning/titleview_TermNCond'), 0)
-
-Mobile.tap(findTestObject('Provisioning/btn_BackTermView'), 0)
-
-Mobile.tap(findTestObject('Provisioning/btn_Verif'), 0)
+Mobile.tap(findTestObject('Logout/btn_Yes'), 0)
 
