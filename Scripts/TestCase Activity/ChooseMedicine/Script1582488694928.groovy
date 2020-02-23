@@ -15,17 +15,17 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-Mobile.tap(findTestObject('Dashboard/btn_More'), 0)
+Mobile.waitForElementPresent(findTestObject('Medicine Menu/ChooseMedicine/titleview_MedicineType'), 0)
 
-Mobile.waitForElementPresent(findTestObject('Logout/titleview_Lainnya'), 0)
+Mobile.tap(findTestObject('Medicine Menu/ChooseMedicine/txtview_ProductName6'), 0)
 
-Mobile.tap(findTestObject('Logout/btn_Logout'), 0)
+Mobile.tap(findTestObject('Medicine Menu/ChooseMedicine/btn_AddMedicineDet'), 0)
 
-Mobile.waitForElementPresent(findTestObject('Logout/txtview_LogoutTitle'), 0)
+Mobile.scrollToText('Aturan pakai', FailureHandling.STOP_ON_FAILURE)
 
-Mobile.tap(findTestObject('Logout/btn_Yes'), 0)
+Mobile.tap(findTestObject('Medicine Menu/ChooseMedicine/btn_CloseDetailMed'), 0)
 
-Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
+Mobile.waitForElementPresent(findTestObject('Medicine Menu/ChooseMedicine/btn_Cart'), 0)
 
-Mobile.closeApplication()
+Mobile.swipe(0, 10, 0, 120)
 

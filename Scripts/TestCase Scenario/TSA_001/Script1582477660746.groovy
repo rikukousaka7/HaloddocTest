@@ -23,5 +23,9 @@ WebUI.callTestCase(findTestCase('TestCase Activity/Location'), [:], FailureHandl
 
 WebUI.callTestCase(findTestCase('TestCase Activity/MedicineMenu'), [:], FailureHandling.STOP_ON_FAILURE)
 
+WebUI.callTestCase(findTestCase('TestCase Activity/ChooseMedicine'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('TestCase Activity/Cart'), [:], FailureHandling.STOP_ON_FAILURE)
+
 WebUI.callTestCase(findTestCase('TestCase Activity/Logout'), [:], FailureHandling.STOP_ON_FAILURE)
 
