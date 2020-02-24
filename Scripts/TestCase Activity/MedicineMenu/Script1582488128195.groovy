@@ -19,5 +19,7 @@ Mobile.tap(findTestObject('Dashboard/btn_BuyMedicine'), 0)
 
 Mobile.waitForElementPresent(findTestObject('Medicine Menu/titleview_BuyMedicine'), 0)
 
+Mobile.takeScreenshot('MedicineMenu.png', FailureHandling.STOP_ON_FAILURE)
+
 Mobile.selectListItemByLabel(findTestObject('Medicine Menu/recyclerview_MedicineMenu'), 'Antibiotik', 0)
 

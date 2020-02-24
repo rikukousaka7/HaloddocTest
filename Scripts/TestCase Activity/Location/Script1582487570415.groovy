@@ -17,5 +17,7 @@ import internal.GlobalVariable as GlobalVariable
 
 Mobile.tap(findTestObject('Dashboard/btn_ChooseLocDashboard'), 0)
 
+Mobile.takeScreenshot('Location.png', FailureHandling.STOP_ON_FAILURE)
+
 Mobile.tap(findTestObject('Provisioning/btn_OKAddress'), 0)
 

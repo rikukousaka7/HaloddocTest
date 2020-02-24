@@ -21,11 +21,15 @@ Mobile.waitForElementPresent(findTestObject('Medicine Menu/CartAndPayment/btn_It
 
 Mobile.waitForElementPresent(findTestObject('Medicine Menu/CartAndPayment/txtview_CurrentAddress'), 0)
 
+Mobile.takeScreenshot('CartDetail.png', FailureHandling.STOP_ON_FAILURE)
+
 Mobile.tap(findTestObject('Medicine Menu/CartAndPayment/btn_ContinueOrder'), 0)
 
 Mobile.waitForElementPresent(findTestObject('Medicine Menu/CartAndPayment/titleview_Payment'), 0)
 
 Mobile.waitForElementPresent(findTestObject('Medicine Menu/CartAndPayment/txtview_TotalPrice'), 0)
+
+Mobile.takeScreenshot('Payment.png', FailureHandling.STOP_ON_FAILURE)
 
 Mobile.tap(findTestObject('Medicine Menu/CartAndPayment/btn_GopayPayment'), 0)
 

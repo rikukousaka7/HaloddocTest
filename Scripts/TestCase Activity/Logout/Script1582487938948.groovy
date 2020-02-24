@@ -17,11 +17,17 @@ import internal.GlobalVariable as GlobalVariable
 
 Mobile.tap(findTestObject('Dashboard/btn_More'), 0)
 
+Mobile.takeScreenshot('MoreMenu.png', FailureHandling.STOP_ON_FAILURE)
+
 Mobile.tap(findTestObject('Logout/btn_Logout'), 0)
 
 Mobile.waitForElementPresent(findTestObject('Logout/txtview_LogoutTitle'), 0)
 
+Mobile.takeScreenshot('LogoutConfirm.png', FailureHandling.STOP_ON_FAILURE)
+
 Mobile.tap(findTestObject('Logout/btn_Yes'), 0)
+
+Mobile.takeScreenshot('AfterLogout.png', FailureHandling.STOP_ON_FAILURE)
 
 Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
 

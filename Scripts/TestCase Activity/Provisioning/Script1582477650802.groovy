@@ -15,15 +15,24 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
+def TitleNomorPonsel = findTestObject('Provisioning/txtview_NomorPonsel')
+def BtnInputNumber = findTestObject('Provisioning/edittxt_NomorPonsel')
+def InsertNumber = findTestObject('Provisioning/edittxt_PhoneNumVerif')
+def btnVerif = findTestObject('Provisioning/btn_Verif')
+
 Mobile.startApplication(GlobalVariable.APK, false)
 
-Mobile.waitForElementPresent(findTestObject('Provisioning/txtview_NomorPonsel'), 0)
+Mobile.waitForElementPresent(TitleNomorPonsel, 0)
 
-Mobile.tap(findTestObject('Provisioning/edittxt_NomorPonsel'), 0)
+Mobile.takeScreenshot('OpenApps.png', FailureHandling.STOP_ON_FAILURE)
+
+Mobile.tap(BtnInputNumber, 0)
 
 Mobile.hideKeyboard()
 
-Mobile.setText(findTestObject('Provisioning/edittxt_PhoneNumVerif'), GlobalVariable.PhoneNum, 0)
+Mobile.setText(InsertNumber, GlobalVariable.PhoneNum, 0)
 
-Mobile.tap(findTestObject('Provisioning/btn_Verif'), 0)
+Mobile.takeScreenshot('Provisioning.png', FailureHandling.STOP_ON_FAILURE)
+
+Mobile.tap(btnVerif, 0)
 
