@@ -16,8 +16,11 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
 def btnMore = findTestObject('Dashboard/btn_More')
+
 def btnLogout = findTestObject('Logout/btn_Logout')
+
 def titleLogout = findTestObject('Logout/txtview_LogoutTitle')
+
 def btnYes = findTestObject('Logout/btn_Yes')
 
 Mobile.tap(btnMore, 0)
@@ -32,9 +35,9 @@ Mobile.takeScreenshot('LogoutConfirm.png', FailureHandling.STOP_ON_FAILURE)
 
 Mobile.tap(btnYes, 0)
 
-Mobile.takeScreenshot('AfterLogout.png', FailureHandling.STOP_ON_FAILURE)
-
 Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
+
+Mobile.takeScreenshot('AfterLogout.png', FailureHandling.STOP_ON_FAILURE)
 
 Mobile.closeApplication()
 

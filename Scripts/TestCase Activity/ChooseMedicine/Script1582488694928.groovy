@@ -16,9 +16,13 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
 def titleMedicineType = findTestObject('Medicine Menu/ChooseMedicine/titleview_MedicineType')
+
 def Item6 = findTestObject('Medicine Menu/ChooseMedicine/txtview_ProductName6')
+
 def btnAddItem = findTestObject('Medicine Menu/ChooseMedicine/btn_AddMedicineDet')
+
 def btnClose = findTestObject('Medicine Menu/ChooseMedicine/btn_CloseDetailMed')
+
 def btnCart = findTestObject('Medicine Menu/ChooseMedicine/btn_Cart')
 
 Mobile.waitForElementPresent(titleMedicineType, 0)
@@ -35,7 +39,7 @@ Mobile.scrollToText('Aturan pakai', FailureHandling.STOP_ON_FAILURE)
 
 Mobile.tap(btnClose, 0)
 
-Mobile.swipe(10, 10, 20, 240)
+Mobile.swipe(0, 0, 20, 240)
 
 Mobile.takeScreenshot('AfterChooseMedicine.png', FailureHandling.STOP_ON_FAILURE)
 
