@@ -27,13 +27,13 @@ def btnCart = findTestObject('Medicine Menu/ChooseMedicine/btn_Cart')
 
 Mobile.waitForElementPresent(titleMedicineType, 0)
 
-Mobile.takeScreenshot('ChooseMedicine.png', FailureHandling.STOP_ON_FAILURE)
+Mobile.takeScreenshot('C:\\Users\\admin\\git\\HaloddocTest\\CaptureImage\\ChooseMedicine.png', FailureHandling.STOP_ON_FAILURE)
 
 Mobile.tap(Item6, 0)
 
 Mobile.tap(btnAddItem, 0)
 
-Mobile.takeScreenshot('MedicineDetail.png', FailureHandling.STOP_ON_FAILURE)
+Mobile.takeScreenshot('C:\\Users\\admin\\git\\HaloddocTest\\CaptureImage\\MedicineDetail.png', FailureHandling.STOP_ON_FAILURE)
 
 Mobile.scrollToText('Aturan pakai', FailureHandling.STOP_ON_FAILURE)
 
@@ -41,7 +41,7 @@ Mobile.tap(btnClose, 0)
 
 Mobile.swipe(0, 0, 20, 240)
 
-Mobile.takeScreenshot('AfterChooseMedicine.png', FailureHandling.STOP_ON_FAILURE)
+Mobile.takeScreenshot('C:\\Users\\admin\\git\\HaloddocTest\\CaptureImage\\AfterChooseMedicine.png', FailureHandling.STOP_ON_FAILURE)
 
 Mobile.tap(btnCart, 0)
 

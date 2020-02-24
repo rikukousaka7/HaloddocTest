@@ -17,5 +17,5 @@ import internal.GlobalVariable as GlobalVariable
 
 Mobile.waitForElementPresent(findTestObject('Dashboard/txtview_Dashboard'), 0)
 
-Mobile.takeScreenshot('Dashboard.png', FailureHandling.STOP_ON_FAILURE)
+Mobile.takeScreenshot('C:\\Users\\admin\\git\\HaloddocTest\\CaptureImage\\Dashboard.png', FailureHandling.STOP_ON_FAILURE)
 

@@ -25,19 +25,19 @@ def btnYes = findTestObject('Logout/btn_Yes')
 
 Mobile.tap(btnMore, 0)
 
-Mobile.takeScreenshot('MoreMenu.png', FailureHandling.STOP_ON_FAILURE)
+Mobile.takeScreenshot('C:\\Users\\admin\\git\\HaloddocTest\\CaptureImage\\MoreMenu.png', FailureHandling.STOP_ON_FAILURE)
 
 Mobile.tap(btnLogout, 0)
 
 Mobile.waitForElementPresent(titleLogout, 0)
 
-Mobile.takeScreenshot('LogoutConfirm.png', FailureHandling.STOP_ON_FAILURE)
+Mobile.takeScreenshot('C:\\Users\\admin\\git\\HaloddocTest\\CaptureImage\\LogoutConfirm.png', FailureHandling.STOP_ON_FAILURE)
 
 Mobile.tap(btnYes, 0)
 
 Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot('AfterLogout.png', FailureHandling.STOP_ON_FAILURE)
+Mobile.takeScreenshot('C:\\Users\\admin\\git\\HaloddocTest\\CaptureImage\\AfterLogout.png', FailureHandling.STOP_ON_FAILURE)
 
 Mobile.closeApplication()
 

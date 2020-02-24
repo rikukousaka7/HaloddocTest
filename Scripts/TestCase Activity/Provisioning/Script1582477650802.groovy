@@ -16,15 +16,18 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
 def TitleNomorPonsel = findTestObject('Provisioning/txtview_NomorPonsel')
+
 def BtnInputNumber = findTestObject('Provisioning/edittxt_NomorPonsel')
+
 def InsertNumber = findTestObject('Provisioning/edittxt_PhoneNumVerif')
+
 def btnVerif = findTestObject('Provisioning/btn_Verif')
 
 Mobile.startApplication(GlobalVariable.APK, false)
 
 Mobile.waitForElementPresent(TitleNomorPonsel, 0)
 
-Mobile.takeScreenshot('OpenApps.png', FailureHandling.STOP_ON_FAILURE)
+Mobile.takeScreenshot('C:\\Users\\admin\\git\\HaloddocTest\\CaptureImage\\OpenApps.png', FailureHandling.STOP_ON_FAILURE)
 
 Mobile.tap(BtnInputNumber, 0)
 
@@ -32,7 +35,7 @@ Mobile.hideKeyboard()
 
 Mobile.setText(InsertNumber, GlobalVariable.PhoneNum, 0)
 
-Mobile.takeScreenshot('Provisioning.png', FailureHandling.STOP_ON_FAILURE)
+Mobile.takeScreenshot('C:\\Users\\admin\\git\\HaloddocTest\\CaptureImage\\Provisioning.png', FailureHandling.STOP_ON_FAILURE)
 
 Mobile.tap(btnVerif, 0)
 

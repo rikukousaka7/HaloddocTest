@@ -16,14 +16,16 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
 def btnMedicineMenu = findTestObject('Dashboard/btn_BuyMedicine')
+
 def titleMedicineMenu = findTestObject('Medicine Menu/titleview_BuyMedicine')
+
 def listMedicineMenu = findTestObject('Medicine Menu/recyclerview_MedicineMenu')
 
 Mobile.tap(btnMedicineMenu, 0)
 
 Mobile.waitForElementPresent(titleMedicineMenu, 0)
 
-Mobile.takeScreenshot('MedicineMenu.png', FailureHandling.STOP_ON_FAILURE)
+Mobile.takeScreenshot('C:\\Users\\admin\\git\\HaloddocTest\\CaptureImage\\MedicineMenu.png', FailureHandling.STOP_ON_FAILURE)
 
 Mobile.selectListItemByLabel(listMedicineMenu, 'Antibiotik', 0)
 

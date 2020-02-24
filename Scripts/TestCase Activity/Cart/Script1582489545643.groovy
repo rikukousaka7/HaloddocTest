@@ -16,14 +16,23 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
 def titleCart = findTestObject('Medicine Menu/CartAndPayment/titleview_Keranjang')
+
 def Item1 = findTestObject('Medicine Menu/CartAndPayment/btn_ItemCart1')
+
 def currentAddress = findTestObject('Medicine Menu/CartAndPayment/txtview_CurrentAddress')
+
 def btnContinue = findTestObject('Medicine Menu/CartAndPayment/btn_ContinueOrder')
+
 def titlePayment = findTestObject('Medicine Menu/CartAndPayment/titleview_Payment')
+
 def totalPrice = findTestObject('Medicine Menu/CartAndPayment/txtview_TotalPrice')
+
 def btnGopay = findTestObject('Medicine Menu/CartAndPayment/btn_GopayPayment')
+
 def btnMoreOption = findTestObject('Medicine Menu/CartAndPayment/btn_MoreOption')
+
 def btnEmpty = findTestObject('Medicine Menu/CartAndPayment/btn_EmptyCart')
+
 def btnBack = findTestObject('Medicine Menu/btn_Back')
 
 Mobile.waitForElementPresent(titleCart, 0)
@@ -32,7 +41,7 @@ Mobile.waitForElementPresent(Item1, 0)
 
 Mobile.waitForElementPresent(currentAddress, 0)
 
-Mobile.takeScreenshot('CartDetail.png', FailureHandling.STOP_ON_FAILURE)
+Mobile.takeScreenshot('C:\\Users\\admin\\git\\HaloddocTest\\CaptureImage\\CartDetail.png', FailureHandling.STOP_ON_FAILURE)
 
 Mobile.tap(btnContinue, 0)
 
@@ -40,7 +49,7 @@ Mobile.waitForElementPresent(titlePayment, 0)
 
 Mobile.waitForElementPresent(totalPrice, 0)
 
-Mobile.takeScreenshot('Payment.png', FailureHandling.STOP_ON_FAILURE)
+Mobile.takeScreenshot('C:\\Users\\admin\\git\\HaloddocTest\\CaptureImage\\Payment.png', FailureHandling.STOP_ON_FAILURE)
 
 Mobile.tap(btnGopay, 0)
 
