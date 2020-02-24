@@ -39,7 +39,7 @@ Mobile.scrollToText('Aturan pakai', FailureHandling.STOP_ON_FAILURE)
 
 Mobile.tap(btnClose, 0)
 
-Mobile.swipe(0, 0, 20, 240)
+Mobile.swipe(0, 0, 0, 240)
 
 Mobile.takeScreenshot('C:\\Users\\admin\\git\\HaloddocTest\\CaptureImage\\AfterChooseMedicine.png', FailureHandling.STOP_ON_FAILURE)
 

@@ -49,9 +49,9 @@ Mobile.waitForElementPresent(titlePayment, 0)
 
 Mobile.waitForElementPresent(totalPrice, 0)
 
-Mobile.takeScreenshot('C:\\Users\\admin\\git\\HaloddocTest\\CaptureImage\\Payment.png', FailureHandling.STOP_ON_FAILURE)
-
 Mobile.tap(btnGopay, 0)
+
+Mobile.takeScreenshot('C:\\Users\\admin\\git\\HaloddocTest\\CaptureImage\\Payment.png', FailureHandling.STOP_ON_FAILURE)
 
 Mobile.tap(btnBack, 0)
 

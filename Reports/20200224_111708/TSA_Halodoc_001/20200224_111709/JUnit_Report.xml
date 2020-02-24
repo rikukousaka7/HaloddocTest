@@ -1,0 +1,405 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TSA_Halodoc_001" time="173.42" tests="1" failures="0" errors="0">
+   <testsuite name="TSA_Halodoc_001" tests="1" failures="0" errors="0" time="173.42" timestamp="2020-02-24 11:17:11" hostname="admin - ISGS-FJRR" id="Test Suites/TSA_Halodoc_001">
+      <properties>
+         <property name="deviceName" value="asus ASUS_X017DA (Android 9)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\admin\\git\\HaloddocTest\\Reports\\20200224_111708\\TSA_Halodoc_001\\20200224_111709"/>
+         <property name="logFiles" value="C:\\Users\\admin\\git\\HaloddocTest\\Reports\\20200224_111708\\TSA_Halodoc_001\\20200224_111709\\appium.log, C:\\Users\\admin\\git\\HaloddocTest\\Reports\\20200224_111708\\TSA_Halodoc_001\\20200224_111709\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\admin\\git\\HaloddocTest\\CaptureImage\\OpenApps.png, C:\\Users\\admin\\git\\HaloddocTest\\CaptureImage\\Provisioning.png, C:\\Users\\admin\\git\\HaloddocTest\\CaptureImage\\Dashboard.png, C:\\Users\\admin\\git\\HaloddocTest\\CaptureImage\\Location.png, C:\\Users\\admin\\git\\HaloddocTest\\CaptureImage\\MedicineMenu.png, C:\\Users\\admin\\git\\HaloddocTest\\CaptureImage\\ChooseMedicine.png, C:\\Users\\admin\\git\\HaloddocTest\\CaptureImage\\MedicineDetail.png, C:\\Users\\admin\\git\\HaloddocTest\\CaptureImage\\AfterChooseMedicine.png, C:\\Users\\admin\\git\\HaloddocTest\\CaptureImage\\CartDetail.png, C:\\Users\\admin\\git\\HaloddocTest\\CaptureImage\\Payment.png, C:\\Users\\admin\\git\\HaloddocTest\\CaptureImage\\MoreMenu.png, C:\\Users\\admin\\git\\HaloddocTest\\CaptureImage\\LogoutConfirm.png, C:\\Users\\admin\\git\\HaloddocTest\\CaptureImage\\AfterLogout.png"/>
+         <property name="hostName" value="admin - ISGS-FJRR"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="appiumServerStatus" value="{\&quot;value\&quot;:{\&quot;build\&quot;:{\&quot;version\&quot;:\&quot;1.15.1\&quot;}},\&quot;sessionId\&quot;:null,\&quot;status\&quot;:0}"/>
+         <property name="katalonVersion" value="7.1.0.1"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.15.1"/>
+         <property name="deviceModel" value="ASUS_X017DA"/>
+         <property name="hostAddress" value="192.168.43.234"/>
+         <property name="deviceManufacturer" value="asus"/>
+         <property name="deviceId" value="J4AXGF06M964C44"/>
+         <property name="deviceName" value="asus ASUS_X017DA (Android 9)"/>
+         <property name="deviceOSVersion" value="9"/>
+      </properties>
+      <testcase name="Test Cases/TestCase Scenario/TSA_001" time="163.432" classname="Test Cases/TestCase Scenario/TSA_001" status="PASSED">
+         <system-out><![CDATA[2020-02-24 11:17:12 - [TEST_CASE][PASSED] - Test Cases/TestCase Scenario/TSA_001: Test Cases/TestCase Scenario/TSA_001
+
+2020-02-24 11:17:12 - [TEST_STEP][PASSED] - callTestCase(findTestCase("TestCase Activity/Provisioning"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/TestCase Activity/Provisioning' successfully
+
+2020-02-24 11:17:12 - [TEST_CASE][PASSED] - Test Cases/TestCase Activity/Provisioning: Test Cases/TestCase Activity/Provisioning
+
+2020-02-24 11:17:12 - [TEST_STEP][PASSED] - TitleNomorPonsel = findTestObject("Provisioning/txtview_NomorPonsel"): null
+
+2020-02-24 11:17:12 - [TEST_STEP][PASSED] - BtnInputNumber = findTestObject("Provisioning/edittxt_NomorPonsel"): null
+
+2020-02-24 11:17:13 - [TEST_STEP][PASSED] - InsertNumber = findTestObject("Provisioning/edittxt_PhoneNumVerif"): null
+
+2020-02-24 11:17:13 - [TEST_STEP][PASSED] - btnVerif = findTestObject("Provisioning/btn_Verif"): null
+
+2020-02-24 11:17:13 - [TEST_STEP][PASSED] - startApplication(APK, false): Started app at: 'C:\Users\admin\Documents\Prepare for New Job\halodoc\Halodoc Doctors Medicine Appointments_v6.600_apkpure.com.apk'
+
+2020-02-24 11:17:16 - [MESSAGE][INFO] - Appium server started on port 39,912
+
+2020-02-24 11:17:32 - [MESSAGE][PASSED] - Started app at: 'C:\Users\admin\Documents\Prepare for New Job\halodoc\Halodoc Doctors Medicine Appointments_v6.600_apkpure.com.apk'
+
+2020-02-24 11:17:32 - [TEST_STEP][PASSED] - waitForElementPresent(TitleNomorPonsel, 0): Element 'Object Repository/Provisioning/txtview_NomorPonsel' is present
+
+2020-02-24 11:17:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-02-24 11:17:33 - [MESSAGE][PASSED] - Element 'Object Repository/Provisioning/txtview_NomorPonsel' is present
+
+2020-02-24 11:17:33 - [TEST_STEP][PASSED] - takeScreenshot("C:\Users\admin\git\HaloddocTest\CaptureImage\OpenApps.png", STOP_ON_FAILURE): Screenshot is taken
+
+2020-02-24 11:17:35 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|C:\\Users\\admin\\git\\HaloddocTest\\CaptureImage\\OpenApps.png]]
+
+2020-02-24 11:17:35 - [TEST_STEP][PASSED] - tap(BtnInputNumber, 0): Tapped on element 'Object Repository/Provisioning/edittxt_NomorPonsel'
+
+2020-02-24 11:17:35 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-02-24 11:17:36 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Provisioning/edittxt_NomorPonsel'
+
+2020-02-24 11:17:36 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+2020-02-24 11:17:40 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2020-02-24 11:17:40 - [TEST_STEP][PASSED] - setText(InsertNumber, PhoneNum, 0): Text '081239301331' has been set to element 'Object Repository/Provisioning/edittxt_PhoneNumVerif'
+
+2020-02-24 11:17:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-02-24 11:17:42 - [MESSAGE][PASSED] - Text '081239301331' has been set to element 'Object Repository/Provisioning/edittxt_PhoneNumVerif'
+
+2020-02-24 11:17:42 - [TEST_STEP][PASSED] - takeScreenshot("C:\Users\admin\git\HaloddocTest\CaptureImage\Provisioning.png", STOP_ON_FAILURE): Screenshot is taken
+
+2020-02-24 11:17:43 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|C:\\Users\\admin\\git\\HaloddocTest\\CaptureImage\\Provisioning.png]]
+
+2020-02-24 11:17:43 - [TEST_STEP][PASSED] - tap(btnVerif, 0): Tapped on element 'Object Repository/Provisioning/btn_Verif'
+
+2020-02-24 11:17:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-02-24 11:17:44 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Provisioning/btn_Verif'
+
+2020-02-24 11:17:44 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/TestCase Activity/Provisioning' successfully
+
+2020-02-24 11:17:45 - [TEST_STEP][PASSED] - callTestCase(findTestCase("TestCase Activity/Dashboard"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/TestCase Activity/Dashboard' successfully
+
+2020-02-24 11:17:45 - [TEST_CASE][PASSED] - Test Cases/TestCase Activity/Dashboard: Test Cases/TestCase Activity/Dashboard
+
+2020-02-24 11:17:45 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Dashboard/txtview_Dashboard"), 0): Element 'Object Repository/Dashboard/txtview_Dashboard' is present
+
+2020-02-24 11:17:45 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-02-24 11:18:13 - [MESSAGE][PASSED] - Element 'Object Repository/Dashboard/txtview_Dashboard' is present
+
+2020-02-24 11:18:13 - [TEST_STEP][PASSED] - takeScreenshot("C:\Users\admin\git\HaloddocTest\CaptureImage\Dashboard.png", STOP_ON_FAILURE): Screenshot is taken
+
+2020-02-24 11:18:14 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|C:\\Users\\admin\\git\\HaloddocTest\\CaptureImage\\Dashboard.png]]
+
+2020-02-24 11:18:14 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/TestCase Activity/Dashboard' successfully
+
+2020-02-24 11:18:14 - [TEST_STEP][PASSED] - callTestCase(findTestCase("TestCase Activity/Location"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/TestCase Activity/Location' successfully
+
+2020-02-24 11:18:14 - [TEST_CASE][PASSED] - Test Cases/TestCase Activity/Location: Test Cases/TestCase Activity/Location
+
+2020-02-24 11:18:14 - [TEST_STEP][PASSED] - btnLocation = findTestObject("Dashboard/btn_ChooseLocDashboard"): null
+
+2020-02-24 11:18:14 - [TEST_STEP][PASSED] - btnOkeLoc = findTestObject("Provisioning/btn_OKAddress"): null
+
+2020-02-24 11:18:14 - [TEST_STEP][PASSED] - tap(btnLocation, 0): Tapped on element 'Object Repository/Dashboard/btn_ChooseLocDashboard'
+
+2020-02-24 11:18:14 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-02-24 11:18:18 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Dashboard/btn_ChooseLocDashboard'
+
+2020-02-24 11:18:18 - [TEST_STEP][PASSED] - takeScreenshot("C:\Users\admin\git\HaloddocTest\CaptureImage\Location.png", STOP_ON_FAILURE): Screenshot is taken
+
+2020-02-24 11:18:20 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|C:\\Users\\admin\\git\\HaloddocTest\\CaptureImage\\Location.png]]
+
+2020-02-24 11:18:20 - [TEST_STEP][PASSED] - tap(btnOkeLoc, 0): Tapped on element 'Object Repository/Provisioning/btn_OKAddress'
+
+2020-02-24 11:18:20 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-02-24 11:18:21 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Provisioning/btn_OKAddress'
+
+2020-02-24 11:18:21 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/TestCase Activity/Location' successfully
+
+2020-02-24 11:18:21 - [TEST_STEP][PASSED] - callTestCase(findTestCase("TestCase Activity/MedicineMenu"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/TestCase Activity/MedicineMenu' successfully
+
+2020-02-24 11:18:21 - [TEST_CASE][PASSED] - Test Cases/TestCase Activity/MedicineMenu: Test Cases/TestCase Activity/MedicineMenu
+
+2020-02-24 11:18:21 - [TEST_STEP][PASSED] - btnMedicineMenu = findTestObject("Dashboard/btn_BuyMedicine"): null
+
+2020-02-24 11:18:21 - [TEST_STEP][PASSED] - titleMedicineMenu = findTestObject("Medicine Menu/titleview_BuyMedicine"): null
+
+2020-02-24 11:18:21 - [TEST_STEP][PASSED] - listMedicineMenu = findTestObject("Medicine Menu/recyclerview_MedicineMenu"): null
+
+2020-02-24 11:18:22 - [TEST_STEP][PASSED] - tap(btnMedicineMenu, 0): Tapped on element 'Object Repository/Dashboard/btn_BuyMedicine'
+
+2020-02-24 11:18:22 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-02-24 11:18:24 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Dashboard/btn_BuyMedicine'
+
+2020-02-24 11:18:24 - [TEST_STEP][PASSED] - waitForElementPresent(titleMedicineMenu, 0): Element 'Object Repository/Medicine Menu/titleview_BuyMedicine' is present
+
+2020-02-24 11:18:24 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-02-24 11:18:24 - [MESSAGE][PASSED] - Element 'Object Repository/Medicine Menu/titleview_BuyMedicine' is present
+
+2020-02-24 11:18:24 - [TEST_STEP][PASSED] - takeScreenshot("C:\Users\admin\git\HaloddocTest\CaptureImage\MedicineMenu.png", STOP_ON_FAILURE): Screenshot is taken
+
+2020-02-24 11:18:25 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|C:\\Users\\admin\\git\\HaloddocTest\\CaptureImage\\MedicineMenu.png]]
+
+2020-02-24 11:18:25 - [TEST_STEP][PASSED] - selectListItemByLabel(listMedicineMenu, "Antibiotik", 0): Item labeled 'Antibiotik' of object 'Object Repository/Medicine Menu/recyclerview_MedicineMenu' clicked
+
+2020-02-24 11:18:25 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-02-24 11:18:27 - [MESSAGE][PASSED] - Item labeled 'Antibiotik' of object 'Object Repository/Medicine Menu/recyclerview_MedicineMenu' clicked
+
+2020-02-24 11:18:27 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/TestCase Activity/MedicineMenu' successfully
+
+2020-02-24 11:18:27 - [TEST_STEP][PASSED] - callTestCase(findTestCase("TestCase Activity/ChooseMedicine"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/TestCase Activity/ChooseMedicine' successfully
+
+2020-02-24 11:18:27 - [TEST_CASE][PASSED] - Test Cases/TestCase Activity/ChooseMedicine: Test Cases/TestCase Activity/ChooseMedicine
+
+2020-02-24 11:18:27 - [TEST_STEP][PASSED] - titleMedicineType = findTestObject("Medicine Menu/ChooseMedicine/titleview_MedicineType"): null
+
+2020-02-24 11:18:27 - [TEST_STEP][PASSED] - Item6 = findTestObject("Medicine Menu/ChooseMedicine/txtview_ProductName6"): null
+
+2020-02-24 11:18:27 - [TEST_STEP][PASSED] - btnAddItem = findTestObject("Medicine Menu/ChooseMedicine/btn_AddMedicineDet"): null
+
+2020-02-24 11:18:27 - [TEST_STEP][PASSED] - btnClose = findTestObject("Medicine Menu/ChooseMedicine/btn_CloseDetailMed"): null
+
+2020-02-24 11:18:27 - [TEST_STEP][PASSED] - btnCart = findTestObject("Medicine Menu/ChooseMedicine/btn_Cart"): null
+
+2020-02-24 11:18:27 - [TEST_STEP][PASSED] - waitForElementPresent(titleMedicineType, 0): Element 'Object Repository/Medicine Menu/ChooseMedicine/titleview_MedicineType' is present
+
+2020-02-24 11:18:27 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-02-24 11:18:28 - [MESSAGE][PASSED] - Element 'Object Repository/Medicine Menu/ChooseMedicine/titleview_MedicineType' is present
+
+2020-02-24 11:18:28 - [TEST_STEP][PASSED] - takeScreenshot("C:\Users\admin\git\HaloddocTest\CaptureImage\ChooseMedicine.png", STOP_ON_FAILURE): Screenshot is taken
+
+2020-02-24 11:18:30 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|C:\\Users\\admin\\git\\HaloddocTest\\CaptureImage\\ChooseMedicine.png]]
+
+2020-02-24 11:18:30 - [TEST_STEP][PASSED] - tap(Item6, 0): Tapped on element 'Object Repository/Medicine Menu/ChooseMedicine/txtview_ProductName6'
+
+2020-02-24 11:18:30 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-02-24 11:18:32 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Medicine Menu/ChooseMedicine/txtview_ProductName6'
+
+2020-02-24 11:18:32 - [TEST_STEP][PASSED] - tap(btnAddItem, 0): Tapped on element 'Object Repository/Medicine Menu/ChooseMedicine/btn_AddMedicineDet'
+
+2020-02-24 11:18:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-02-24 11:18:33 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Medicine Menu/ChooseMedicine/btn_AddMedicineDet'
+
+2020-02-24 11:18:33 - [TEST_STEP][PASSED] - takeScreenshot("C:\Users\admin\git\HaloddocTest\CaptureImage\MedicineDetail.png", STOP_ON_FAILURE): Screenshot is taken
+
+2020-02-24 11:18:34 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|C:\\Users\\admin\\git\\HaloddocTest\\CaptureImage\\MedicineDetail.png]]
+
+2020-02-24 11:18:34 - [TEST_STEP][PASSED] - scrollToText("Aturan pakai", STOP_ON_FAILURE): Scrolling to text 'Aturan pakai' successfully
+
+2020-02-24 11:18:38 - [MESSAGE][PASSED] - Scrolling to text 'Aturan pakai' successfully
+
+2020-02-24 11:18:38 - [TEST_STEP][PASSED] - tap(btnClose, 0): Tapped on element 'Object Repository/Medicine Menu/ChooseMedicine/btn_CloseDetailMed'
+
+2020-02-24 11:18:38 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-02-24 11:18:40 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Medicine Menu/ChooseMedicine/btn_CloseDetailMed'
+
+2020-02-24 11:18:40 - [TEST_STEP][PASSED] - swipe(0, 0, 20, 240): Swiped from 0,0 to 20,240
+
+2020-02-24 11:18:41 - [MESSAGE][PASSED] - Swiped from 0,0 to 20,240
+
+2020-02-24 11:18:41 - [TEST_STEP][PASSED] - takeScreenshot("C:\Users\admin\git\HaloddocTest\CaptureImage\AfterChooseMedicine.png", STOP_ON_FAILURE): Screenshot is taken
+
+2020-02-24 11:18:43 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|C:\\Users\\admin\\git\\HaloddocTest\\CaptureImage\\AfterChooseMedicine.png]]
+
+2020-02-24 11:18:43 - [TEST_STEP][PASSED] - tap(btnCart, 0): Tapped on element 'Object Repository/Medicine Menu/ChooseMedicine/btn_Cart'
+
+2020-02-24 11:18:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-02-24 11:19:23 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Medicine Menu/ChooseMedicine/btn_Cart'
+
+2020-02-24 11:19:23 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/TestCase Activity/ChooseMedicine' successfully
+
+2020-02-24 11:19:23 - [TEST_STEP][PASSED] - callTestCase(findTestCase("TestCase Activity/Cart"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/TestCase Activity/Cart' successfully
+
+2020-02-24 11:19:23 - [TEST_CASE][PASSED] - Test Cases/TestCase Activity/Cart: Test Cases/TestCase Activity/Cart
+
+2020-02-24 11:19:24 - [TEST_STEP][PASSED] - titleCart = findTestObject("Medicine Menu/CartAndPayment/titleview_Keranjang"): null
+
+2020-02-24 11:19:24 - [TEST_STEP][PASSED] - Item1 = findTestObject("Medicine Menu/CartAndPayment/btn_ItemCart1"): null
+
+2020-02-24 11:19:24 - [TEST_STEP][PASSED] - currentAddress = findTestObject("Medicine Menu/CartAndPayment/txtview_CurrentAddress"): null
+
+2020-02-24 11:19:24 - [TEST_STEP][PASSED] - btnContinue = findTestObject("Medicine Menu/CartAndPayment/btn_ContinueOrder"): null
+
+2020-02-24 11:19:24 - [TEST_STEP][PASSED] - titlePayment = findTestObject("Medicine Menu/CartAndPayment/titleview_Payment"): null
+
+2020-02-24 11:19:24 - [TEST_STEP][PASSED] - totalPrice = findTestObject("Medicine Menu/CartAndPayment/txtview_TotalPrice"): null
+
+2020-02-24 11:19:24 - [TEST_STEP][PASSED] - btnGopay = findTestObject("Medicine Menu/CartAndPayment/btn_GopayPayment"): null
+
+2020-02-24 11:19:24 - [TEST_STEP][PASSED] - btnMoreOption = findTestObject("Medicine Menu/CartAndPayment/btn_MoreOption"): null
+
+2020-02-24 11:19:24 - [TEST_STEP][PASSED] - btnEmpty = findTestObject("Medicine Menu/CartAndPayment/btn_EmptyCart"): null
+
+2020-02-24 11:19:24 - [TEST_STEP][PASSED] - btnBack = findTestObject("Medicine Menu/btn_Back"): null
+
+2020-02-24 11:19:24 - [TEST_STEP][PASSED] - waitForElementPresent(titleCart, 0): Element 'Object Repository/Medicine Menu/CartAndPayment/titleview_Keranjang' is present
+
+2020-02-24 11:19:24 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-02-24 11:19:24 - [MESSAGE][PASSED] - Element 'Object Repository/Medicine Menu/CartAndPayment/titleview_Keranjang' is present
+
+2020-02-24 11:19:24 - [TEST_STEP][PASSED] - waitForElementPresent(Item1, 0): Element 'Object Repository/Medicine Menu/CartAndPayment/btn_ItemCart1' is present
+
+2020-02-24 11:19:24 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-02-24 11:19:25 - [MESSAGE][PASSED] - Element 'Object Repository/Medicine Menu/CartAndPayment/btn_ItemCart1' is present
+
+2020-02-24 11:19:25 - [TEST_STEP][PASSED] - waitForElementPresent(currentAddress, 0): Element 'Object Repository/Medicine Menu/CartAndPayment/txtview_CurrentAddress' is present
+
+2020-02-24 11:19:25 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-02-24 11:19:25 - [MESSAGE][PASSED] - Element 'Object Repository/Medicine Menu/CartAndPayment/txtview_CurrentAddress' is present
+
+2020-02-24 11:19:25 - [TEST_STEP][PASSED] - takeScreenshot("C:\Users\admin\git\HaloddocTest\CaptureImage\CartDetail.png", STOP_ON_FAILURE): Screenshot is taken
+
+2020-02-24 11:19:26 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|C:\\Users\\admin\\git\\HaloddocTest\\CaptureImage\\CartDetail.png]]
+
+2020-02-24 11:19:26 - [TEST_STEP][PASSED] - tap(btnContinue, 0): Tapped on element 'Object Repository/Medicine Menu/CartAndPayment/btn_ContinueOrder'
+
+2020-02-24 11:19:26 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-02-24 11:19:28 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Medicine Menu/CartAndPayment/btn_ContinueOrder'
+
+2020-02-24 11:19:28 - [TEST_STEP][PASSED] - waitForElementPresent(titlePayment, 0): Element 'Object Repository/Medicine Menu/CartAndPayment/titleview_Payment' is present
+
+2020-02-24 11:19:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-02-24 11:19:28 - [MESSAGE][PASSED] - Element 'Object Repository/Medicine Menu/CartAndPayment/titleview_Payment' is present
+
+2020-02-24 11:19:28 - [TEST_STEP][PASSED] - waitForElementPresent(totalPrice, 0): Element 'Object Repository/Medicine Menu/CartAndPayment/txtview_TotalPrice' is present
+
+2020-02-24 11:19:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-02-24 11:19:29 - [MESSAGE][PASSED] - Element 'Object Repository/Medicine Menu/CartAndPayment/txtview_TotalPrice' is present
+
+2020-02-24 11:19:29 - [TEST_STEP][PASSED] - takeScreenshot("C:\Users\admin\git\HaloddocTest\CaptureImage\Payment.png", STOP_ON_FAILURE): Screenshot is taken
+
+2020-02-24 11:19:30 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|C:\\Users\\admin\\git\\HaloddocTest\\CaptureImage\\Payment.png]]
+
+2020-02-24 11:19:30 - [TEST_STEP][PASSED] - tap(btnGopay, 0): Tapped on element 'Object Repository/Medicine Menu/CartAndPayment/btn_GopayPayment'
+
+2020-02-24 11:19:30 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-02-24 11:19:31 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Medicine Menu/CartAndPayment/btn_GopayPayment'
+
+2020-02-24 11:19:31 - [TEST_STEP][PASSED] - tap(btnBack, 0): Tapped on element 'Object Repository/Medicine Menu/btn_Back'
+
+2020-02-24 11:19:31 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-02-24 11:19:33 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Medicine Menu/btn_Back'
+
+2020-02-24 11:19:33 - [TEST_STEP][PASSED] - tap(btnMoreOption, 0): Tapped on element 'Object Repository/Medicine Menu/CartAndPayment/btn_MoreOption'
+
+2020-02-24 11:19:33 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-02-24 11:19:34 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Medicine Menu/CartAndPayment/btn_MoreOption'
+
+2020-02-24 11:19:34 - [TEST_STEP][PASSED] - tap(btnEmpty, 0): Tapped on element 'Object Repository/Medicine Menu/CartAndPayment/btn_EmptyCart'
+
+2020-02-24 11:19:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-02-24 11:19:36 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Medicine Menu/CartAndPayment/btn_EmptyCart'
+
+2020-02-24 11:19:36 - [TEST_STEP][PASSED] - tap(btnBack, 0): Tapped on element 'Object Repository/Medicine Menu/btn_Back'
+
+2020-02-24 11:19:36 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-02-24 11:19:37 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Medicine Menu/btn_Back'
+
+2020-02-24 11:19:37 - [TEST_STEP][PASSED] - tap(btnBack, 0): Tapped on element 'Object Repository/Medicine Menu/btn_Back'
+
+2020-02-24 11:19:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-02-24 11:19:39 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Medicine Menu/btn_Back'
+
+2020-02-24 11:19:39 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/TestCase Activity/Cart' successfully
+
+2020-02-24 11:19:39 - [TEST_STEP][PASSED] - callTestCase(findTestCase("TestCase Activity/Logout"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/TestCase Activity/Logout' successfully
+
+2020-02-24 11:19:39 - [TEST_CASE][PASSED] - Test Cases/TestCase Activity/Logout: Test Cases/TestCase Activity/Logout
+
+2020-02-24 11:19:39 - [TEST_STEP][PASSED] - btnMore = findTestObject("Dashboard/btn_More"): null
+
+2020-02-24 11:19:39 - [TEST_STEP][PASSED] - btnLogout = findTestObject("Logout/btn_Logout"): null
+
+2020-02-24 11:19:39 - [TEST_STEP][PASSED] - titleLogout = findTestObject("Logout/txtview_LogoutTitle"): null
+
+2020-02-24 11:19:39 - [TEST_STEP][PASSED] - btnYes = findTestObject("Logout/btn_Yes"): null
+
+2020-02-24 11:19:39 - [TEST_STEP][PASSED] - tap(btnMore, 0): Tapped on element 'Object Repository/Dashboard/btn_More'
+
+2020-02-24 11:19:39 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-02-24 11:19:41 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Dashboard/btn_More'
+
+2020-02-24 11:19:41 - [TEST_STEP][PASSED] - takeScreenshot("C:\Users\admin\git\HaloddocTest\CaptureImage\MoreMenu.png", STOP_ON_FAILURE): Screenshot is taken
+
+2020-02-24 11:19:42 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|C:\\Users\\admin\\git\\HaloddocTest\\CaptureImage\\MoreMenu.png]]
+
+2020-02-24 11:19:42 - [TEST_STEP][PASSED] - tap(btnLogout, 0): Tapped on element 'Object Repository/Logout/btn_Logout'
+
+2020-02-24 11:19:42 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-02-24 11:19:45 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Logout/btn_Logout'
+
+2020-02-24 11:19:45 - [TEST_STEP][PASSED] - waitForElementPresent(titleLogout, 0): Element 'Object Repository/Logout/txtview_LogoutTitle' is present
+
+2020-02-24 11:19:45 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-02-24 11:19:45 - [MESSAGE][PASSED] - Element 'Object Repository/Logout/txtview_LogoutTitle' is present
+
+2020-02-24 11:19:45 - [TEST_STEP][PASSED] - takeScreenshot("C:\Users\admin\git\HaloddocTest\CaptureImage\LogoutConfirm.png", STOP_ON_FAILURE): Screenshot is taken
+
+2020-02-24 11:19:47 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|C:\\Users\\admin\\git\\HaloddocTest\\CaptureImage\\LogoutConfirm.png]]
+
+2020-02-24 11:19:47 - [TEST_STEP][PASSED] - tap(btnYes, 0): Tapped on element 'Object Repository/Logout/btn_Yes'
+
+2020-02-24 11:19:47 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-02-24 11:19:48 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Logout/btn_Yes'
+
+2020-02-24 11:19:48 - [TEST_STEP][PASSED] - delay(5, STOP_ON_FAILURE): Delayed 5 second(s)
+
+2020-02-24 11:19:53 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2020-02-24 11:19:53 - [TEST_STEP][PASSED] - takeScreenshot("C:\Users\admin\git\HaloddocTest\CaptureImage\AfterLogout.png", STOP_ON_FAILURE): Screenshot is taken
+
+2020-02-24 11:19:54 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|C:\\Users\\admin\\git\\HaloddocTest\\CaptureImage\\AfterLogout.png]]
+
+2020-02-24 11:19:54 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+2020-02-24 11:19:55 - [MESSAGE][PASSED] - Close app successfully
+
+2020-02-24 11:19:55 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/TestCase Activity/Logout' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-02-24 11:17:11 - [TEST_SUITE][PASSED] - TSA_Halodoc_001: Test Cases/TestCase Scenario/TSA_001]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
