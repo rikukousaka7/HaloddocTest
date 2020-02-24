@@ -6,6 +6,7 @@
    <UUID>edb1557b-8e5e-4efa-bad9-a5420a851704</UUID>
    <migratedVersion>5.9.0</migratedVersion>
    <pageLoadTimeout>0</pageLoadTimeout>
+   <projectFileLocation>C:\Users\admin\git\HaloddocTest\HaloddocTest.prj</projectFileLocation>
    <sourceContent>
       <sourceFolderList>
          <sourceFolderConfiguration>

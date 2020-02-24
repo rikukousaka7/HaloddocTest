@@ -25,7 +25,7 @@ Mobile.scrollToText('Aturan pakai', FailureHandling.STOP_ON_FAILURE)
 
 Mobile.tap(findTestObject('Medicine Menu/ChooseMedicine/btn_CloseDetailMed'), 0)
 
-Mobile.waitForElementPresent(findTestObject('Medicine Menu/ChooseMedicine/btn_Cart'), 0)
+Mobile.swipe(10, 10, 20, 240)
 
-Mobile.swipe(0, 10, 0, 120)
+Mobile.tap(findTestObject('Medicine Menu/ChooseMedicine/btn_Cart'), 0)
 

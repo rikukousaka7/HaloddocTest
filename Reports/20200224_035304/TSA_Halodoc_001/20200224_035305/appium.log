@@ -1,0 +1,1218 @@
+[35m[Appium][39m Welcome to Appium v1.15.1
+[35m[Appium][39m Non-default server args:
+[35m[Appium][39m   port: 34476
+[35m[Appium][39m   loglevel: info
+[35m[Appium][39m   chromeDriverPort: 34477
+[35m[Appium][39m   tmpDir: C:\Users\admin\AppData\Local\Temp\\Katalon\Appium\Temp1582491190125
+[35m[Appium][39m Appium REST http interface listener started on 0.0.0.0:34476
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m6 ms - 68[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session[39m
+[35m[HTTP][39m [90m{"desiredCapabilities":{"app":"C:\\Users\\admin\\Documents\\Prepare for New Job\\halodoc\\Halodoc Doctors Medicine Appointments_v6.600_apkpure.com.apk","noReset":true,"deviceName":"asus ASUS_X017DA (Android 9)","fullReset":false,"platform":"ANDROID","newCommandTimeout":1800,"platformVersion":"9","automationName":"uiautomator2","autoGrantPermissions":true,"platformName":"Android","udid":"J4AXGF06M964C44","systemPort":34475},"capabilities":{"firstMatch":[{"appium:app":"C:\\Users\\admin\\Documents\\Prepare for New Job\\halodoc\\Halodoc Doctors Medicine Appointments_v6.600_apkpure.com.apk","appium:autoGrantPermissions":true,"appium:automationName":"uiautomator2","appium:deviceName":"asus ASUS_X017DA (Android 9)","appium:fullReset":false,"appium:newCommandTimeout":1800,"appium:noReset":true,"platform":"ANDROID","platformName":"android","appium:platformVersion":"9","appium:systemPort":34475,"appium:udid":"J4AXGF06M964C44"}]}}[39m
+[35m[BaseDriver][39m The capabilities ["platform"] are not standard capabilities and should have an extension prefix
+[35m[Appium][39m Appium v1.15.1 creating new AndroidUiautomator2Driver (v1.37.2) session
+[35m[BaseDriver][39m The following capabilities were provided, but are not recognized by Appium:
+[35m[BaseDriver][39m   platform
+[35m[BaseDriver][39m Session created with session id: 88537800-c4a8-458c-9020-2801524f1f94
+[35m[BaseDriver][39m Using local app 'C:\Users\admin\Documents\Prepare for New Job\halodoc\Halodoc Doctors Medicine Appointments_v6.600_apkpure.com.apk'
+[35m[ADB][39m Found 1 'build-tools' folders under 'C:\Users\admin\.katalon\tools\android_sdk' (newest first):
+[35m[ADB][39m     C:/Users/admin/.katalon/tools/android_sdk/build-tools/29.0.2
+[35m[ADB][39m Using 'adb.exe' from 'C:\Users\admin\.katalon\tools\android_sdk\platform-tools\adb.exe'
+[35m[AndroidDriver][39m Retrieving device list
+[35m[AndroidDriver][39m Using device: J4AXGF06M964C44
+[35m[ADB][39m Using 'adb.exe' from 'C:\Users\admin\.katalon\tools\android_sdk\platform-tools\adb.exe'
+[35m[UiAutomator2][39m Relaxing hidden api policy
+[35m[ADB][39m Using the alternative activity name detection method because of: Could not find 'apkanalyzer.bat' in ["C:\\Users\\admin\\.katalon\\tools\\android_sdk\\platform-tools\\apkanalyzer.bat","C:\\Users\\admin\\.katalon\\tools\\android_sdk\\emulator\\apkanalyzer.bat","C:\\Users\\admin\\.katalon\\tools\\android_sdk\\tools\\apkanalyzer.bat","C:\\Users\\admin\\.katalon\\tools\\android_sdk\\tools\\bin\\apkanalyzer.bat","C:\\Users\\admin\\.katalon\\tools\\android_sdk\\build-tools\\29.0.2\\apkanalyzer.bat"]. Do you have Android Build Tools installed at 'C:\Users\admin\.katalon\tools\android_sdk'?
+[35m[ADB][39m Using 'aapt.exe' from 'C:\Users\admin\.katalon\tools\android_sdk\build-tools\29.0.2\aapt.exe'
+[35m[ADB][39m Extracting package and launch activity from manifest
+[35m[ADB][39m Package name: 'com.linkdokter.halodoc.android'
+[35m[ADB][39m Main activity name: 'com.linkdokter.halodoc.android.ui.activity.SplashActivity'
+[35m[ADB][39m Cannot extract apk info using apkanalyzer. Falling back to aapt. Original error: Could not find 'apkanalyzer.bat' in ["C:\\Users\\admin\\.katalon\\tools\\android_sdk\\platform-tools\\apkanalyzer.bat","C:\\Users\\admin\\.katalon\\tools\\android_sdk\\emulator\\apkanalyzer.bat","C:\\Users\\admin\\.katalon\\tools\\android_sdk\\tools\\apkanalyzer.bat","C:\\Users\\admin\\.katalon\\tools\\android_sdk\\tools\\bin\\apkanalyzer.bat","C:\\Users\\admin\\.katalon\\tools\\android_sdk\\build-tools\\29.0.2\\apkanalyzer.bat"]. Do you have Android Build Tools installed at 'C:\Users\admin\.katalon\tools\android_sdk'?
+[35m[ADB][39m Cannot extract apk info using apkanalyzer. Falling back to aapt. Original error: Could not find 'apkanalyzer.bat' in ["C:\\Users\\admin\\.katalon\\tools\\android_sdk\\platform-tools\\apkanalyzer.bat","C:\\Users\\admin\\.katalon\\tools\\android_sdk\\emulator\\apkanalyzer.bat","C:\\Users\\admin\\.katalon\\tools\\android_sdk\\tools\\apkanalyzer.bat","C:\\Users\\admin\\.katalon\\tools\\android_sdk\\tools\\bin\\apkanalyzer.bat","C:\\Users\\admin\\.katalon\\tools\\android_sdk\\build-tools\\29.0.2\\apkanalyzer.bat"]. Do you have Android Build Tools installed at 'C:\Users\admin\.katalon\tools\android_sdk'?
+[35m[ADB][39m Using 'apksigner.bat' from 'C:\Users\admin\.katalon\tools\android_sdk\build-tools\29.0.2\apksigner.bat'
+[35m[UiAutomator2][39m Server packages are not going to be (re)installed
+[35m[ADB][39m Cannot extract apk info using apkanalyzer. Falling back to aapt. Original error: Could not find 'apkanalyzer.bat' in ["C:\\Users\\admin\\.katalon\\tools\\android_sdk\\platform-tools\\apkanalyzer.bat","C:\\Users\\admin\\.katalon\\tools\\android_sdk\\emulator\\apkanalyzer.bat","C:\\Users\\admin\\.katalon\\tools\\android_sdk\\tools\\apkanalyzer.bat","C:\\Users\\admin\\.katalon\\tools\\android_sdk\\tools\\bin\\apkanalyzer.bat","C:\\Users\\admin\\.katalon\\tools\\android_sdk\\build-tools\\29.0.2\\apkanalyzer.bat"]. Do you have Android Build Tools installed at 'C:\Users\admin\.katalon\tools\android_sdk'?
+[35m[UiAutomator2][39m Starting UIAutomator2 server 4.3.0
+[35m[UiAutomator2][39m Using UIAutomator2 server from 'C:\Users\admin\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v4.3.0.apk' and test from 'C:\Users\admin\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk'
+[35m[UiAutomator2][39m Waiting up to 30000ms for UiAutomator2 to be online...
+[35m[WD Proxy][39m Got an unexpected response with status undefined: {"code":"ECONNRESET"}
+[35m[WD Proxy][39m Got an unexpected response with status undefined: {"code":"ECONNRESET"}
+[35m[WD Proxy][39m Got an unexpected response with status undefined: {"code":"ECONNRESET"}
+[35m[WD Proxy][39m Determined the downstream protocol as 'W3C'
+[35m[AndroidDriver][39m Screen already unlocked, doing nothing
+[35m[UiAutomator2][39m Starting 'com.linkdokter.halodoc.android/com.linkdokter.halodoc.android.ui.activity.SplashActivity and waiting for 'com.linkdokter.halodoc.android/com.linkdokter.halodoc.android.ui.activity.SplashActivity'
+[35m[Appium][39m New AndroidUiautomator2Driver session created successfully, session 88537800-c4a8-458c-9020-2801524f1f94 added to master session list
+[35m[HTTP][39m [37m<-- POST /wd/hub/session [39m[32m200[39m [90m13652 ms - 1366[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94 [39m[32m200[39m [90m72 ms - 1298[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94 [39m[32m200[39m [90m64 ms - 1298[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m1 ms - 68[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/timeouts [39m[32m200[39m [90m5 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/timeouts [39m[32m200[39m [90m3 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/window/rect [39m[32m200[39m [90m46 ms - 50[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").resourceId(\"com.linkdokter.halodoc.android:id/ev_phone_number\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements [39m[32m200[39m [90m741 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/element/aeb1a05b-6281-4cba-9fe2-ae46ae34e43f/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (88537800)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId f2a582de-a5a6-4e8f-8fc8-02f7d242e6a6 with 88537800-c4a8-458c-9020-2801524f1f94
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/element/aeb1a05b-6281-4cba-9fe2-ae46ae34e43f/location [39m[32m200[39m [90m78 ms - 79[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/timeouts [39m[32m200[39m [90m2 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/timeouts [39m[32m200[39m [90m2 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/window/rect [39m[32m200[39m [90m32 ms - 50[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.RelativeLayout\").resourceId(\"com.linkdokter.halodoc.android:id/layoutPhNo\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements [39m[32m200[39m [90m97 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/element/0b8fc042-b70f-4c58-b7ff-ece989ada550/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (88537800)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId f2a582de-a5a6-4e8f-8fc8-02f7d242e6a6 with 88537800-c4a8-458c-9020-2801524f1f94
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/element/0b8fc042-b70f-4c58-b7ff-ece989ada550/location [39m[32m200[39m [90m78 ms - 79[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/timeouts [39m[32m200[39m [90m6 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/touch/perform[39m
+[35m[HTTP][39m [90m{"actions":[{"action":"tap","options":{"x":1,"y":1,"element":"0b8fc042-b70f-4c58-b7ff-ece989ada550"}},{"action":"release","options":{}}]}[39m
+[35m[UiAutomator2][39m calling get location: 0b8fc042-b70f-4c58-b7ff-ece989ada550
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/touch/perform [39m[32m200[39m [90m1364 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/context[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/context [39m[32m200[39m [90m3 ms - 22[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/contexts[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[AndroidDriver][39m Not checking whether webviews have active pages; use the 'ensureWebviewsHavePages' cap to turn this check on
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/contexts [39m[32m200[39m [90m92 ms - 24[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/context[39m
+[35m[HTTP][39m [90m{"name":"NATIVE_APP"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/context [39m[32m200[39m [90m2 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/appium/device/hide_keyboard[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/appium/device/hide_keyboard [39m[32m200[39m [90m3367 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/context[39m
+[35m[HTTP][39m [90m{"name":"NATIVE_APP"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/context [39m[32m200[39m [90m8 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/timeouts [39m[32m200[39m [90m2 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/window/rect [39m[32m200[39m [90m60 ms - 50[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Masukkan nomor telepon untuk memulai\").resourceId(\"com.linkdokter.halodoc.android:id/tvEnterMobileNumber\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements [39m[32m200[39m [90m357 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Masukkan nomor telepon untuk memulai\").resourceId(\"com.linkdokter.halodoc.android:id/tvEnterMobileNumber\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements [39m[32m200[39m [90m87 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Masukkan nomor telepon untuk memulai\").resourceId(\"com.linkdokter.halodoc.android:id/tvEnterMobileNumber\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements [39m[32m200[39m [90m70 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Masukkan nomor telepon untuk memulai\").resourceId(\"com.linkdokter.halodoc.android:id/tvEnterMobileNumber\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements [39m[32m200[39m [90m57 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Masukkan nomor telepon untuk memulai\").resourceId(\"com.linkdokter.halodoc.android:id/tvEnterMobileNumber\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements [39m[32m200[39m [90m53 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Masukkan nomor telepon untuk memulai\").resourceId(\"com.linkdokter.halodoc.android:id/tvEnterMobileNumber\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements [39m[32m200[39m [90m69 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Masukkan nomor telepon untuk memulai\").resourceId(\"com.linkdokter.halodoc.android:id/tvEnterMobileNumber\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements [39m[32m200[39m [90m96 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Masukkan nomor telepon untuk memulai\").resourceId(\"com.linkdokter.halodoc.android:id/tvEnterMobileNumber\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements [39m[32m200[39m [90m95 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Masukkan nomor telepon untuk memulai\").resourceId(\"com.linkdokter.halodoc.android:id/tvEnterMobileNumber\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements [39m[32m200[39m [90m87 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Masukkan nomor telepon untuk memulai\").resourceId(\"com.linkdokter.halodoc.android:id/tvEnterMobileNumber\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements [39m[32m200[39m [90m71 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Masukkan nomor telepon untuk memulai\").resourceId(\"com.linkdokter.halodoc.android:id/tvEnterMobileNumber\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements [39m[32m200[39m [90m85 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Masukkan nomor telepon untuk memulai\").resourceId(\"com.linkdokter.halodoc.android:id/tvEnterMobileNumber\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements [39m[32m200[39m [90m79 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Masukkan nomor telepon untuk memulai\").resourceId(\"com.linkdokter.halodoc.android:id/tvEnterMobileNumber\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements [39m[32m200[39m [90m65 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Masukkan nomor telepon untuk memulai\").resourceId(\"com.linkdokter.halodoc.android:id/tvEnterMobileNumber\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements [39m[32m200[39m [90m66 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Masukkan nomor telepon untuk memulai\").resourceId(\"com.linkdokter.halodoc.android:id/tvEnterMobileNumber\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements [39m[32m200[39m [90m62 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Masukkan nomor telepon untuk memulai\").resourceId(\"com.linkdokter.halodoc.android:id/tvEnterMobileNumber\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements [39m[32m200[39m [90m61 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Masukkan nomor telepon untuk memulai\").resourceId(\"com.linkdokter.halodoc.android:id/tvEnterMobileNumber\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements [39m[32m200[39m [90m72 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Masukkan nomor telepon untuk memulai\").resourceId(\"com.linkdokter.halodoc.android:id/tvEnterMobileNumber\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements [39m[32m200[39m [90m68 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Masukkan nomor telepon untuk memulai\").resourceId(\"com.linkdokter.halodoc.android:id/tvEnterMobileNumber\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements [39m[32m200[39m [90m61 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Masukkan nomor telepon untuk memulai\").resourceId(\"com.linkdokter.halodoc.android:id/tvEnterMobileNumber\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements [39m[32m200[39m [90m65 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Masukkan nomor telepon untuk memulai\").resourceId(\"com.linkdokter.halodoc.android:id/tvEnterMobileNumber\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements [39m[32m200[39m [90m94 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Masukkan nomor telepon untuk memulai\").resourceId(\"com.linkdokter.halodoc.android:id/tvEnterMobileNumber\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements [39m[32m200[39m [90m70 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Masukkan nomor telepon untuk memulai\").resourceId(\"com.linkdokter.halodoc.android:id/tvEnterMobileNumber\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements [39m[32m200[39m [90m83 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Masukkan nomor telepon untuk memulai\").resourceId(\"com.linkdokter.halodoc.android:id/tvEnterMobileNumber\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements [39m[32m200[39m [90m89 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Masukkan nomor telepon untuk memulai\").resourceId(\"com.linkdokter.halodoc.android:id/tvEnterMobileNumber\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements [39m[32m200[39m [90m92 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Masukkan nomor telepon untuk memulai\").resourceId(\"com.linkdokter.halodoc.android:id/tvEnterMobileNumber\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements [39m[32m200[39m [90m76 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Masukkan nomor telepon untuk memulai\").resourceId(\"com.linkdokter.halodoc.android:id/tvEnterMobileNumber\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements [39m[32m200[39m [90m66 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Masukkan nomor telepon untuk memulai\").resourceId(\"com.linkdokter.halodoc.android:id/tvEnterMobileNumber\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements [39m[32m200[39m [90m617 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Masukkan nomor telepon untuk memulai\").resourceId(\"com.linkdokter.halodoc.android:id/tvEnterMobileNumber\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements [39m[32m200[39m [90m623 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Masukkan nomor telepon untuk memulai\").resourceId(\"com.linkdokter.halodoc.android:id/tvEnterMobileNumber\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements [39m[32m200[39m [90m64 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Masukkan nomor telepon untuk memulai\").resourceId(\"com.linkdokter.halodoc.android:id/tvEnterMobileNumber\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements [39m[32m200[39m [90m79 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Masukkan nomor telepon untuk memulai\").resourceId(\"com.linkdokter.halodoc.android:id/tvEnterMobileNumber\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements [39m[32m200[39m [90m90 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Masukkan nomor telepon untuk memulai\").resourceId(\"com.linkdokter.halodoc.android:id/tvEnterMobileNumber\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements [39m[32m200[39m [90m62 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Masukkan nomor telepon untuk memulai\").resourceId(\"com.linkdokter.halodoc.android:id/tvEnterMobileNumber\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements [39m[32m200[39m [90m75 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Masukkan nomor telepon untuk memulai\").resourceId(\"com.linkdokter.halodoc.android:id/tvEnterMobileNumber\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements [39m[32m200[39m [90m68 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Masukkan nomor telepon untuk memulai\").resourceId(\"com.linkdokter.halodoc.android:id/tvEnterMobileNumber\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements [39m[32m200[39m [90m79 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Masukkan nomor telepon untuk memulai\").resourceId(\"com.linkdokter.halodoc.android:id/tvEnterMobileNumber\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements [39m[32m200[39m [90m60 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Masukkan nomor telepon untuk memulai\").resourceId(\"com.linkdokter.halodoc.android:id/tvEnterMobileNumber\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements [39m[32m200[39m [90m76 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Masukkan nomor telepon untuk memulai\").resourceId(\"com.linkdokter.halodoc.android:id/tvEnterMobileNumber\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements [39m[32m200[39m [90m58 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Masukkan nomor telepon untuk memulai\").resourceId(\"com.linkdokter.halodoc.android:id/tvEnterMobileNumber\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements [39m[32m200[39m [90m64 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Masukkan nomor telepon untuk memulai\").resourceId(\"com.linkdokter.halodoc.android:id/tvEnterMobileNumber\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements [39m[32m200[39m [90m608 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Masukkan nomor telepon untuk memulai\").resourceId(\"com.linkdokter.halodoc.android:id/tvEnterMobileNumber\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements [39m[32m200[39m [90m65 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Masukkan nomor telepon untuk memulai\").resourceId(\"com.linkdokter.halodoc.android:id/tvEnterMobileNumber\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements [39m[32m200[39m [90m75 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Masukkan nomor telepon untuk memulai\").resourceId(\"com.linkdokter.halodoc.android:id/tvEnterMobileNumber\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements [39m[32m200[39m [90m616 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Masukkan nomor telepon untuk memulai\").resourceId(\"com.linkdokter.halodoc.android:id/tvEnterMobileNumber\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements [39m[32m200[39m [90m54 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Masukkan nomor telepon untuk memulai\").resourceId(\"com.linkdokter.halodoc.android:id/tvEnterMobileNumber\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements [39m[32m200[39m [90m617 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Masukkan nomor telepon untuk memulai\").resourceId(\"com.linkdokter.halodoc.android:id/tvEnterMobileNumber\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements [39m[32m200[39m [90m637 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Masukkan nomor telepon untuk memulai\").resourceId(\"com.linkdokter.halodoc.android:id/tvEnterMobileNumber\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements [39m[32m200[39m [90m67 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Masukkan nomor telepon untuk memulai\").resourceId(\"com.linkdokter.halodoc.android:id/tvEnterMobileNumber\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements [39m[32m200[39m [90m68 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Masukkan nomor telepon untuk memulai\").resourceId(\"com.linkdokter.halodoc.android:id/tvEnterMobileNumber\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements [39m[32m200[39m [90m62 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Masukkan nomor telepon untuk memulai\").resourceId(\"com.linkdokter.halodoc.android:id/tvEnterMobileNumber\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements [39m[32m200[39m [90m65 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Masukkan nomor telepon untuk memulai\").resourceId(\"com.linkdokter.halodoc.android:id/tvEnterMobileNumber\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements [39m[32m200[39m [90m55 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Masukkan nomor telepon untuk memulai\").resourceId(\"com.linkdokter.halodoc.android:id/tvEnterMobileNumber\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements [39m[32m200[39m [90m56 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Masukkan nomor telepon untuk memulai\").resourceId(\"com.linkdokter.halodoc.android:id/tvEnterMobileNumber\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements [39m[32m200[39m [90m63 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Masukkan nomor telepon untuk memulai\").resourceId(\"com.linkdokter.halodoc.android:id/tvEnterMobileNumber\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements [39m[32m200[39m [90m658 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Masukkan nomor telepon untuk memulai\").resourceId(\"com.linkdokter.halodoc.android:id/tvEnterMobileNumber\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements [39m[32m200[39m [90m62 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Masukkan nomor telepon untuk memulai\").resourceId(\"com.linkdokter.halodoc.android:id/tvEnterMobileNumber\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements [39m[32m200[39m [90m634 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Masukkan nomor telepon untuk memulai\").resourceId(\"com.linkdokter.halodoc.android:id/tvEnterMobileNumber\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements [39m[32m200[39m [90m611 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Masukkan nomor telepon untuk memulai\").resourceId(\"com.linkdokter.halodoc.android:id/tvEnterMobileNumber\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements [39m[32m200[39m [90m617 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Masukkan nomor telepon untuk memulai\").resourceId(\"com.linkdokter.halodoc.android:id/tvEnterMobileNumber\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements [39m[32m200[39m [90m632 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Masukkan nomor telepon untuk memulai\").resourceId(\"com.linkdokter.halodoc.android:id/tvEnterMobileNumber\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements [39m[32m200[39m [90m58 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Masukkan nomor telepon untuk memulai\").resourceId(\"com.linkdokter.halodoc.android:id/tvEnterMobileNumber\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements [39m[32m200[39m [90m60 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Masukkan nomor telepon untuk memulai\").resourceId(\"com.linkdokter.halodoc.android:id/tvEnterMobileNumber\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements [39m[32m200[39m [90m60 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Masukkan nomor telepon untuk memulai\").resourceId(\"com.linkdokter.halodoc.android:id/tvEnterMobileNumber\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements [39m[32m200[39m [90m60 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Masukkan nomor telepon untuk memulai\").resourceId(\"com.linkdokter.halodoc.android:id/tvEnterMobileNumber\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements [39m[32m200[39m [90m69 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Masukkan nomor telepon untuk memulai\").resourceId(\"com.linkdokter.halodoc.android:id/tvEnterMobileNumber\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements [39m[32m200[39m [90m619 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Masukkan nomor telepon untuk memulai\").resourceId(\"com.linkdokter.halodoc.android:id/tvEnterMobileNumber\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements [39m[32m200[39m [90m60 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Masukkan nomor telepon untuk memulai\").resourceId(\"com.linkdokter.halodoc.android:id/tvEnterMobileNumber\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements [39m[32m200[39m [90m81 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Masukkan nomor telepon untuk memulai\").resourceId(\"com.linkdokter.halodoc.android:id/tvEnterMobileNumber\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements [39m[32m200[39m [90m92 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Masukkan nomor telepon untuk memulai\").resourceId(\"com.linkdokter.halodoc.android:id/tvEnterMobileNumber\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements [39m[32m200[39m [90m70 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Masukkan nomor telepon untuk memulai\").resourceId(\"com.linkdokter.halodoc.android:id/tvEnterMobileNumber\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements [39m[32m200[39m [90m625 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Masukkan nomor telepon untuk memulai\").resourceId(\"com.linkdokter.halodoc.android:id/tvEnterMobileNumber\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements [39m[32m200[39m [90m69 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Masukkan nomor telepon untuk memulai\").resourceId(\"com.linkdokter.halodoc.android:id/tvEnterMobileNumber\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements [39m[32m200[39m [90m57 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Masukkan nomor telepon untuk memulai\").resourceId(\"com.linkdokter.halodoc.android:id/tvEnterMobileNumber\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements [39m[32m200[39m [90m59 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Masukkan nomor telepon untuk memulai\").resourceId(\"com.linkdokter.halodoc.android:id/tvEnterMobileNumber\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements [39m[32m200[39m [90m77 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Masukkan nomor telepon untuk memulai\").resourceId(\"com.linkdokter.halodoc.android:id/tvEnterMobileNumber\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements [39m[32m200[39m [90m82 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Masukkan nomor telepon untuk memulai\").resourceId(\"com.linkdokter.halodoc.android:id/tvEnterMobileNumber\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements [39m[32m200[39m [90m56 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Masukkan nomor telepon untuk memulai\").resourceId(\"com.linkdokter.halodoc.android:id/tvEnterMobileNumber\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements [39m[32m200[39m [90m54 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Masukkan nomor telepon untuk memulai\").resourceId(\"com.linkdokter.halodoc.android:id/tvEnterMobileNumber\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements [39m[32m200[39m [90m611 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Masukkan nomor telepon untuk memulai\").resourceId(\"com.linkdokter.halodoc.android:id/tvEnterMobileNumber\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements [39m[32m200[39m [90m78 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Masukkan nomor telepon untuk memulai\").resourceId(\"com.linkdokter.halodoc.android:id/tvEnterMobileNumber\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements [39m[32m200[39m [90m60 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Masukkan nomor telepon untuk memulai\").resourceId(\"com.linkdokter.halodoc.android:id/tvEnterMobileNumber\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements [39m[32m200[39m [90m79 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Masukkan nomor telepon untuk memulai\").resourceId(\"com.linkdokter.halodoc.android:id/tvEnterMobileNumber\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements [39m[32m200[39m [90m77 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Masukkan nomor telepon untuk memulai\").resourceId(\"com.linkdokter.halodoc.android:id/tvEnterMobileNumber\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements [39m[32m200[39m [90m67 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Masukkan nomor telepon untuk memulai\").resourceId(\"com.linkdokter.halodoc.android:id/tvEnterMobileNumber\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements [39m[32m200[39m [90m618 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Masukkan nomor telepon untuk memulai\").resourceId(\"com.linkdokter.halodoc.android:id/tvEnterMobileNumber\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements [39m[32m200[39m [90m73 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Masukkan nomor telepon untuk memulai\").resourceId(\"com.linkdokter.halodoc.android:id/tvEnterMobileNumber\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements [39m[32m200[39m [90m71 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Masukkan nomor telepon untuk memulai\").resourceId(\"com.linkdokter.halodoc.android:id/tvEnterMobileNumber\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements [39m[32m200[39m [90m79 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Masukkan nomor telepon untuk memulai\").resourceId(\"com.linkdokter.halodoc.android:id/tvEnterMobileNumber\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements [39m[32m200[39m [90m58 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Masukkan nomor telepon untuk memulai\").resourceId(\"com.linkdokter.halodoc.android:id/tvEnterMobileNumber\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements [39m[32m200[39m [90m620 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Masukkan nomor telepon untuk memulai\").resourceId(\"com.linkdokter.halodoc.android:id/tvEnterMobileNumber\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements [39m[32m200[39m [90m61 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Masukkan nomor telepon untuk memulai\").resourceId(\"com.linkdokter.halodoc.android:id/tvEnterMobileNumber\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements [39m[32m200[39m [90m62 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Masukkan nomor telepon untuk memulai\").resourceId(\"com.linkdokter.halodoc.android:id/tvEnterMobileNumber\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements [39m[32m200[39m [90m74 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Masukkan nomor telepon untuk memulai\").resourceId(\"com.linkdokter.halodoc.android:id/tvEnterMobileNumber\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements [39m[32m200[39m [90m613 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Masukkan nomor telepon untuk memulai\").resourceId(\"com.linkdokter.halodoc.android:id/tvEnterMobileNumber\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements [39m[32m200[39m [90m73 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Masukkan nomor telepon untuk memulai\").resourceId(\"com.linkdokter.halodoc.android:id/tvEnterMobileNumber\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements [39m[32m200[39m [90m67 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Masukkan nomor telepon untuk memulai\").resourceId(\"com.linkdokter.halodoc.android:id/tvEnterMobileNumber\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements [39m[32m200[39m [90m76 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Masukkan nomor telepon untuk memulai\").resourceId(\"com.linkdokter.halodoc.android:id/tvEnterMobileNumber\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements [39m[32m200[39m [90m84 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Masukkan nomor telepon untuk memulai\").resourceId(\"com.linkdokter.halodoc.android:id/tvEnterMobileNumber\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements [39m[32m200[39m [90m73 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Masukkan nomor telepon untuk memulai\").resourceId(\"com.linkdokter.halodoc.android:id/tvEnterMobileNumber\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements [39m[32m200[39m [90m63 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Masukkan nomor telepon untuk memulai\").resourceId(\"com.linkdokter.halodoc.android:id/tvEnterMobileNumber\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements [39m[32m200[39m [90m61 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Masukkan nomor telepon untuk memulai\").resourceId(\"com.linkdokter.halodoc.android:id/tvEnterMobileNumber\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements [39m[32m200[39m [90m61 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Masukkan nomor telepon untuk memulai\").resourceId(\"com.linkdokter.halodoc.android:id/tvEnterMobileNumber\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements [39m[32m200[39m [90m611 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Masukkan nomor telepon untuk memulai\").resourceId(\"com.linkdokter.halodoc.android:id/tvEnterMobileNumber\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements [39m[32m200[39m [90m60 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Masukkan nomor telepon untuk memulai\").resourceId(\"com.linkdokter.halodoc.android:id/tvEnterMobileNumber\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements [39m[32m200[39m [90m57 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Masukkan nomor telepon untuk memulai\").resourceId(\"com.linkdokter.halodoc.android:id/tvEnterMobileNumber\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements [39m[32m200[39m [90m61 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Masukkan nomor telepon untuk memulai\").resourceId(\"com.linkdokter.halodoc.android:id/tvEnterMobileNumber\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements [39m[32m200[39m [90m65 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Masukkan nomor telepon untuk memulai\").resourceId(\"com.linkdokter.halodoc.android:id/tvEnterMobileNumber\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements [39m[32m200[39m [90m65 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Masukkan nomor telepon untuk memulai\").resourceId(\"com.linkdokter.halodoc.android:id/tvEnterMobileNumber\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements [39m[32m200[39m [90m610 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Masukkan nomor telepon untuk memulai\").resourceId(\"com.linkdokter.halodoc.android:id/tvEnterMobileNumber\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements [39m[32m200[39m [90m61 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Masukkan nomor telepon untuk memulai\").resourceId(\"com.linkdokter.halodoc.android:id/tvEnterMobileNumber\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements [39m[32m200[39m [90m65 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Masukkan nomor telepon untuk memulai\").resourceId(\"com.linkdokter.halodoc.android:id/tvEnterMobileNumber\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements [39m[32m200[39m [90m71 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Masukkan nomor telepon untuk memulai\").resourceId(\"com.linkdokter.halodoc.android:id/tvEnterMobileNumber\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements [39m[32m200[39m [90m58 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Masukkan nomor telepon untuk memulai\").resourceId(\"com.linkdokter.halodoc.android:id/tvEnterMobileNumber\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements [39m[32m200[39m [90m626 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Masukkan nomor telepon untuk memulai\").resourceId(\"com.linkdokter.halodoc.android:id/tvEnterMobileNumber\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements [39m[32m200[39m [90m63 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Masukkan nomor telepon untuk memulai\").resourceId(\"com.linkdokter.halodoc.android:id/tvEnterMobileNumber\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements [39m[32m200[39m [90m65 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Masukkan nomor telepon untuk memulai\").resourceId(\"com.linkdokter.halodoc.android:id/tvEnterMobileNumber\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements [39m[32m200[39m [90m65 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Masukkan nomor telepon untuk memulai\").resourceId(\"com.linkdokter.halodoc.android:id/tvEnterMobileNumber\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements [39m[32m200[39m [90m611 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Masukkan nomor telepon untuk memulai\").resourceId(\"com.linkdokter.halodoc.android:id/tvEnterMobileNumber\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements [39m[32m200[39m [90m622 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Masukkan nomor telepon untuk memulai\").resourceId(\"com.linkdokter.halodoc.android:id/tvEnterMobileNumber\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements [39m[32m200[39m [90m72 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Masukkan nomor telepon untuk memulai\").resourceId(\"com.linkdokter.halodoc.android:id/tvEnterMobileNumber\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements [39m[32m200[39m [90m613 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Masukkan nomor telepon untuk memulai\").resourceId(\"com.linkdokter.halodoc.android:id/tvEnterMobileNumber\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements [39m[32m200[39m [90m77 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Masukkan nomor telepon untuk memulai\").resourceId(\"com.linkdokter.halodoc.android:id/tvEnterMobileNumber\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements [39m[32m200[39m [90m58 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Masukkan nomor telepon untuk memulai\").resourceId(\"com.linkdokter.halodoc.android:id/tvEnterMobileNumber\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements [39m[32m200[39m [90m55 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Masukkan nomor telepon untuk memulai\").resourceId(\"com.linkdokter.halodoc.android:id/tvEnterMobileNumber\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements [39m[32m200[39m [90m623 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Masukkan nomor telepon untuk memulai\").resourceId(\"com.linkdokter.halodoc.android:id/tvEnterMobileNumber\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements [39m[32m200[39m [90m616 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Masukkan nomor telepon untuk memulai\").resourceId(\"com.linkdokter.halodoc.android:id/tvEnterMobileNumber\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements [39m[32m200[39m [90m61 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Masukkan nomor telepon untuk memulai\").resourceId(\"com.linkdokter.halodoc.android:id/tvEnterMobileNumber\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements [39m[32m200[39m [90m58 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Masukkan nomor telepon untuk memulai\").resourceId(\"com.linkdokter.halodoc.android:id/tvEnterMobileNumber\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements [39m[32m200[39m [90m72 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Masukkan nomor telepon untuk memulai\").resourceId(\"com.linkdokter.halodoc.android:id/tvEnterMobileNumber\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements [39m[32m200[39m [90m75 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Masukkan nomor telepon untuk memulai\").resourceId(\"com.linkdokter.halodoc.android:id/tvEnterMobileNumber\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements [39m[32m200[39m [90m67 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Masukkan nomor telepon untuk memulai\").resourceId(\"com.linkdokter.halodoc.android:id/tvEnterMobileNumber\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements [39m[32m200[39m [90m72 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Masukkan nomor telepon untuk memulai\").resourceId(\"com.linkdokter.halodoc.android:id/tvEnterMobileNumber\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements [39m[32m200[39m [90m70 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Masukkan nomor telepon untuk memulai\").resourceId(\"com.linkdokter.halodoc.android:id/tvEnterMobileNumber\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements [39m[32m200[39m [90m62 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Masukkan nomor telepon untuk memulai\").resourceId(\"com.linkdokter.halodoc.android:id/tvEnterMobileNumber\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements [39m[32m200[39m [90m635 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Masukkan nomor telepon untuk memulai\").resourceId(\"com.linkdokter.halodoc.android:id/tvEnterMobileNumber\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements [39m[32m200[39m [90m53 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Masukkan nomor telepon untuk memulai\").resourceId(\"com.linkdokter.halodoc.android:id/tvEnterMobileNumber\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements [39m[32m200[39m [90m62 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Masukkan nomor telepon untuk memulai\").resourceId(\"com.linkdokter.halodoc.android:id/tvEnterMobileNumber\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements [39m[32m200[39m [90m78 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Masukkan nomor telepon untuk memulai\").resourceId(\"com.linkdokter.halodoc.android:id/tvEnterMobileNumber\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements [39m[32m200[39m [90m602 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Masukkan nomor telepon untuk memulai\").resourceId(\"com.linkdokter.halodoc.android:id/tvEnterMobileNumber\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements [39m[32m200[39m [90m610 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Masukkan nomor telepon untuk memulai\").resourceId(\"com.linkdokter.halodoc.android:id/tvEnterMobileNumber\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements [39m[32m200[39m [90m823 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Masukkan nomor telepon untuk memulai\").resourceId(\"com.linkdokter.halodoc.android:id/tvEnterMobileNumber\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements [39m[32m200[39m [90m66 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Masukkan nomor telepon untuk memulai\").resourceId(\"com.linkdokter.halodoc.android:id/tvEnterMobileNumber\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements [39m[32m200[39m [90m78 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Masukkan nomor telepon untuk memulai\").resourceId(\"com.linkdokter.halodoc.android:id/tvEnterMobileNumber\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements [39m[32m200[39m [90m65 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Masukkan nomor telepon untuk memulai\").resourceId(\"com.linkdokter.halodoc.android:id/tvEnterMobileNumber\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements [39m[32m200[39m [90m75 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Masukkan nomor telepon untuk memulai\").resourceId(\"com.linkdokter.halodoc.android:id/tvEnterMobileNumber\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements [39m[32m200[39m [90m68 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Masukkan nomor telepon untuk memulai\").resourceId(\"com.linkdokter.halodoc.android:id/tvEnterMobileNumber\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements [39m[32m200[39m [90m622 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Masukkan nomor telepon untuk memulai\").resourceId(\"com.linkdokter.halodoc.android:id/tvEnterMobileNumber\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements [39m[32m200[39m [90m63 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Masukkan nomor telepon untuk memulai\").resourceId(\"com.linkdokter.halodoc.android:id/tvEnterMobileNumber\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements [39m[32m200[39m [90m81 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Masukkan nomor telepon untuk memulai\").resourceId(\"com.linkdokter.halodoc.android:id/tvEnterMobileNumber\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements [39m[32m200[39m [90m64 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Masukkan nomor telepon untuk memulai\").resourceId(\"com.linkdokter.halodoc.android:id/tvEnterMobileNumber\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements [39m[32m200[39m [90m63 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Masukkan nomor telepon untuk memulai\").resourceId(\"com.linkdokter.halodoc.android:id/tvEnterMobileNumber\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements [39m[32m200[39m [90m614 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Masukkan nomor telepon untuk memulai\").resourceId(\"com.linkdokter.halodoc.android:id/tvEnterMobileNumber\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements [39m[32m200[39m [90m83 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Masukkan nomor telepon untuk memulai\").resourceId(\"com.linkdokter.halodoc.android:id/tvEnterMobileNumber\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements [39m[32m200[39m [90m71 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Masukkan nomor telepon untuk memulai\").resourceId(\"com.linkdokter.halodoc.android:id/tvEnterMobileNumber\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements [39m[32m200[39m [90m58 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Masukkan nomor telepon untuk memulai\").resourceId(\"com.linkdokter.halodoc.android:id/tvEnterMobileNumber\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements [39m[32m200[39m [90m79 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Masukkan nomor telepon untuk memulai\").resourceId(\"com.linkdokter.halodoc.android:id/tvEnterMobileNumber\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements [39m[32m200[39m [90m83 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Masukkan nomor telepon untuk memulai\").resourceId(\"com.linkdokter.halodoc.android:id/tvEnterMobileNumber\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements [39m[32m200[39m [90m78 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Masukkan nomor telepon untuk memulai\").resourceId(\"com.linkdokter.halodoc.android:id/tvEnterMobileNumber\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements [39m[32m200[39m [90m59 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Masukkan nomor telepon untuk memulai\").resourceId(\"com.linkdokter.halodoc.android:id/tvEnterMobileNumber\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements [39m[32m200[39m [90m614 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/timeouts [39m[32m200[39m [90m6 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/timeouts [39m[32m200[39m [90m3 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/window/rect [39m[32m200[39m [90m38 ms - 50[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\").resourceId(\"com.linkdokter.halodoc.android:id/ev_phone_number\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements [39m[32m200[39m [90m71 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/element/a109d08e-7023-4565-8970-693388fce83e/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (88537800)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId f2a582de-a5a6-4e8f-8fc8-02f7d242e6a6 with 88537800-c4a8-458c-9020-2801524f1f94
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/element/a109d08e-7023-4565-8970-693388fce83e/location [39m[32m200[39m [90m82 ms - 78[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/timeouts [39m[32m200[39m [90m5 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/element/a109d08e-7023-4565-8970-693388fce83e/clear[39m
+[35m[HTTP][39m [90m{"id":"a109d08e-7023-4565-8970-693388fce83e"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/element/a109d08e-7023-4565-8970-693388fce83e/clear [39m[32m200[39m [90m85 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/element/a109d08e-7023-4565-8970-693388fce83e/value[39m
+[35m[HTTP][39m [90m{"id":"a109d08e-7023-4565-8970-693388fce83e","text":"081239301331","value":["0","8","1","2","3","9","3","0","1","3","3","1"]}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/element/a109d08e-7023-4565-8970-693388fce83e/value [39m[32m200[39m [90m583 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/timeouts [39m[32m200[39m [90m3 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/window/rect [39m[32m200[39m [90m39 ms - 50[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").resourceId(\"com.linkdokter.halodoc.android:id/tv_term_of_services\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements [39m[32m200[39m [90m363 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/element/1ea2697c-7859-4932-adb4-aeb48a098269/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (88537800)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId f2a582de-a5a6-4e8f-8fc8-02f7d242e6a6 with 88537800-c4a8-458c-9020-2801524f1f94
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/element/1ea2697c-7859-4932-adb4-aeb48a098269/location [39m[32m200[39m [90m46 ms - 78[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/timeouts [39m[32m200[39m [90m2 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/touch/perform[39m
+[35m[HTTP][39m [90m{"actions":[{"action":"tap","options":{"x":1,"y":1,"element":"1ea2697c-7859-4932-adb4-aeb48a098269"}},{"action":"release","options":{}}]}[39m
+[35m[UiAutomator2][39m calling get location: 1ea2697c-7859-4932-adb4-aeb48a098269
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/touch/perform [39m[32m200[39m [90m3244 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/timeouts [39m[32m200[39m [90m2 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/window/rect [39m[32m200[39m [90m42 ms - 50[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Syarat dan ketentuan\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements [39m[32m200[39m [90m599 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Syarat dan ketentuan\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements [39m[32m200[39m [90m623 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Syarat dan ketentuan\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements [39m[32m200[39m [90m75 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Syarat dan ketentuan\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements [39m[32m200[39m [90m622 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Syarat dan ketentuan\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements [39m[32m200[39m [90m62 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Syarat dan ketentuan\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements [39m[32m200[39m [90m599 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Syarat dan ketentuan\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements [39m[32m200[39m [90m618 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Syarat dan ketentuan\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements [39m[32m200[39m [90m634 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Syarat dan ketentuan\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements [39m[32m200[39m [90m65 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Syarat dan ketentuan\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements [39m[32m200[39m [90m612 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Syarat dan ketentuan\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements [39m[32m200[39m [90m604 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Syarat dan ketentuan\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements [39m[32m200[39m [90m74 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Syarat dan ketentuan\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements [39m[32m200[39m [90m700 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Syarat dan ketentuan\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements [39m[32m200[39m [90m83 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Syarat dan ketentuan\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements [39m[32m200[39m [90m64 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Syarat dan ketentuan\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements [39m[32m200[39m [90m88 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Syarat dan ketentuan\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements [39m[32m200[39m [90m62 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Syarat dan ketentuan\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements [39m[32m200[39m [90m621 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Syarat dan ketentuan\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements [39m[32m200[39m [90m58 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Syarat dan ketentuan\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements [39m[32m200[39m [90m84 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Syarat dan ketentuan\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements [39m[32m200[39m [90m603 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Syarat dan ketentuan\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements [39m[32m200[39m [90m617 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Syarat dan ketentuan\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements [39m[32m200[39m [90m696 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Syarat dan ketentuan\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements [39m[32m200[39m [90m70 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Syarat dan ketentuan\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements [39m[32m200[39m [90m626 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Syarat dan ketentuan\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements [39m[32m200[39m [90m649 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Syarat dan ketentuan\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements [39m[32m200[39m [90m64 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Syarat dan ketentuan\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements [39m[32m200[39m [90m579 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Syarat dan ketentuan\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements [39m[32m200[39m [90m504 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Syarat dan ketentuan\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements [39m[32m200[39m [90m565 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Syarat dan ketentuan\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements [39m[32m200[39m [90m3039 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Syarat dan ketentuan\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements [39m[32m200[39m [90m2684 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Syarat dan ketentuan\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements [39m[32m200[39m [90m3218 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Syarat dan ketentuan\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements [39m[32m200[39m [90m3125 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Syarat dan ketentuan\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements [39m[32m200[39m [90m2766 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Syarat dan ketentuan\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements [39m[32m200[39m [90m2916 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Syarat dan ketentuan\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements [39m[32m200[39m [90m3005 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/timeouts [39m[32m200[39m [90m8 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/timeouts [39m[32m200[39m [90m3 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/window/rect [39m[32m200[39m [90m60 ms - 50[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.ImageButton\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements [39m[32m200[39m [90m3238 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/element/7570a6b3-c4a6-4760-9bed-1b862653204c/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (88537800)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId f2a582de-a5a6-4e8f-8fc8-02f7d242e6a6 with 88537800-c4a8-458c-9020-2801524f1f94
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/element/7570a6b3-c4a6-4760-9bed-1b862653204c/location [39m[32m200[39m [90m157 ms - 75[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/timeouts [39m[32m200[39m [90m6 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/touch/perform[39m
+[35m[HTTP][39m [90m{"actions":[{"action":"tap","options":{"x":1,"y":1,"element":"7570a6b3-c4a6-4760-9bed-1b862653204c"}},{"action":"release","options":{}}]}[39m
+[35m[UiAutomator2][39m calling get location: 7570a6b3-c4a6-4760-9bed-1b862653204c
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/touch/perform [39m[32m200[39m [90m1534 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/timeouts [39m[32m200[39m [90m2 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/window/rect [39m[32m200[39m [90m48 ms - 50[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.Button\").resourceId(\"com.linkdokter.halodoc.android:id/btn_confirm\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements [39m[32m200[39m [90m66 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/element/0ac1f938-5641-43ec-a107-50c23d8ec856/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (88537800)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId f2a582de-a5a6-4e8f-8fc8-02f7d242e6a6 with 88537800-c4a8-458c-9020-2801524f1f94
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/element/0ac1f938-5641-43ec-a107-50c23d8ec856/location [39m[32m200[39m [90m58 ms - 78[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/timeouts [39m[32m200[39m [90m7 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/touch/perform[39m
+[35m[HTTP][39m [90m{"actions":[{"action":"tap","options":{"x":1,"y":1,"element":"0ac1f938-5641-43ec-a107-50c23d8ec856"}},{"action":"release","options":{}}]}[39m
+[35m[UiAutomator2][39m calling get location: 0ac1f938-5641-43ec-a107-50c23d8ec856
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/touch/perform [39m[32m200[39m [90m1230 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/timeouts [39m[32m200[39m [90m2 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/window/rect [39m[32m200[39m [90m27 ms - 50[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Kami disini untuk kamu!\").resourceId(\"com.linkdokter.halodoc.android:id/tv_we_are_here_for_you\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements [39m[32m200[39m [90m584 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Kami disini untuk kamu!\").resourceId(\"com.linkdokter.halodoc.android:id/tv_we_are_here_for_you\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements [39m[32m200[39m [90m59 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Kami disini untuk kamu!\").resourceId(\"com.linkdokter.halodoc.android:id/tv_we_are_here_for_you\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements [39m[32m200[39m [90m76 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Kami disini untuk kamu!\").resourceId(\"com.linkdokter.halodoc.android:id/tv_we_are_here_for_you\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements [39m[32m200[39m [90m54 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Kami disini untuk kamu!\").resourceId(\"com.linkdokter.halodoc.android:id/tv_we_are_here_for_you\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements [39m[32m200[39m [90m772 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Kami disini untuk kamu!\").resourceId(\"com.linkdokter.halodoc.android:id/tv_we_are_here_for_you\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements [39m[32m200[39m [90m981 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Kami disini untuk kamu!\").resourceId(\"com.linkdokter.halodoc.android:id/tv_we_are_here_for_you\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements [39m[32m200[39m [90m993 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Kami disini untuk kamu!\").resourceId(\"com.linkdokter.halodoc.android:id/tv_we_are_here_for_you\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements [39m[32m200[39m [90m3195 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Kami disini untuk kamu!\").resourceId(\"com.linkdokter.halodoc.android:id/tv_we_are_here_for_you\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements [39m[32m200[39m [90m1330 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/element/21f118d1-558e-4079-bd3f-ed091331b570/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (88537800)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId f2a582de-a5a6-4e8f-8fc8-02f7d242e6a6 with 88537800-c4a8-458c-9020-2801524f1f94
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/element/21f118d1-558e-4079-bd3f-ed091331b570/location [39m[32m200[39m [90m88 ms - 77[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/timeouts [39m[32m200[39m [90m6 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/timeouts [39m[32m200[39m [90m2 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/window/rect [39m[32m200[39m [90m39 ms - 50[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.ImageView\").resourceId(\"com.linkdokter.halodoc.android:id/ivEditAddress\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements [39m[32m200[39m [90m103 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/element/1025ac08-1e88-43e1-aa91-a3cf015a1bc6/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (88537800)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId f2a582de-a5a6-4e8f-8fc8-02f7d242e6a6 with 88537800-c4a8-458c-9020-2801524f1f94
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/element/1025ac08-1e88-43e1-aa91-a3cf015a1bc6/location [39m[32m200[39m [90m72 ms - 78[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/timeouts [39m[32m200[39m [90m6 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/touch/perform[39m
+[35m[HTTP][39m [90m{"actions":[{"action":"tap","options":{"x":1,"y":1,"element":"1025ac08-1e88-43e1-aa91-a3cf015a1bc6"}},{"action":"release","options":{}}]}[39m
+[35m[UiAutomator2][39m calling get location: 1025ac08-1e88-43e1-aa91-a3cf015a1bc6
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/touch/perform [39m[32m200[39m [90m5380 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/timeouts [39m[32m200[39m [90m4 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/window/rect [39m[32m200[39m [90m24 ms - 50[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.ImageView\").resourceId(\"com.linkdokter.halodoc.android:id/searchAddressIv\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements [39m[32m200[39m [90m51 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/element/cf1cc961-24a2-4461-a3cb-1beb6b5f833f/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (88537800)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId f2a582de-a5a6-4e8f-8fc8-02f7d242e6a6 with 88537800-c4a8-458c-9020-2801524f1f94
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/element/cf1cc961-24a2-4461-a3cb-1beb6b5f833f/location [39m[32m200[39m [90m42 ms - 79[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/timeouts [39m[32m200[39m [90m2 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/touch/perform[39m
+[35m[HTTP][39m [90m{"actions":[{"action":"tap","options":{"x":1,"y":1,"element":"cf1cc961-24a2-4461-a3cb-1beb6b5f833f"}},{"action":"release","options":{}}]}[39m
+[35m[UiAutomator2][39m calling get location: cf1cc961-24a2-4461-a3cb-1beb6b5f833f
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/touch/perform [39m[32m200[39m [90m999 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/timeouts [39m[32m200[39m [90m2 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/window/rect [39m[32m200[39m [90m33 ms - 50[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\").resourceId(\"com.linkdokter.halodoc.android:id/addressSearchTv\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/elements [39m[32m200[39m [90m55 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/element/de1e15fa-3a27-4120-b4d2-bd430683c826/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (88537800)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId f2a582de-a5a6-4e8f-8fc8-02f7d242e6a6 with 88537800-c4a8-458c-9020-2801524f1f94
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/element/de1e15fa-3a27-4120-b4d2-bd430683c826/location [39m[32m200[39m [90m41 ms - 78[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/timeouts [39m[32m200[39m [90m2 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/element/de1e15fa-3a27-4120-b4d2-bd430683c826/attribute/[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/element/de1e15fa-3a27-4120-b4d2-bd430683c826/attribute/ [39m[33m404[39m [90m2 ms - 150[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/context[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/context [39m[32m200[39m [90m2 ms - 22[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/contexts[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[AndroidDriver][39m Not checking whether webviews have active pages; use the 'ensureWebviewsHavePages' cap to turn this check on
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/contexts [39m[32m200[39m [90m100 ms - 24[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/context[39m
+[35m[HTTP][39m [90m{"name":"NATIVE_APP"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/context [39m[32m200[39m [90m4 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/screenshot [39m[32m200[39m [90m961 ms - 356416[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/context[39m
+[35m[HTTP][39m [90m{"name":"NATIVE_APP"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94/context [39m[32m200[39m [90m3 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mDELETE[39m [37m/wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[Appium][39m Removing session 88537800-c4a8-458c-9020-2801524f1f94 from our master session list
+[35m[UiAutomator2][39m Restoring hidden api policy to the device default configuration
+[35m[HTTP][39m [37m<-- DELETE /wd/hub/session/88537800-c4a8-458c-9020-2801524f1f94 [39m[32m200[39m [90m707 ms - 14[39m
+[35m[HTTP][39m [90m[39m

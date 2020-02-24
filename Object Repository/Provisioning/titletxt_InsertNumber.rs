@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@class = 'android.widget.TextView' and @resource-id = 'com.linkdokter.halodoc.android:id/tvEnterMobileNumber']</value>
+         <value>//*[@class = 'android.widget.TextView' and (text() = 'Masukkan nomor telepon untuk memulai' or . = 'Masukkan nomor telepon untuk memulai') and @resource-id = 'com.linkdokter.halodoc.android:id/tvEnterMobileNumber']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -20,7 +20,7 @@
       <value>android.widget.TextView</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>

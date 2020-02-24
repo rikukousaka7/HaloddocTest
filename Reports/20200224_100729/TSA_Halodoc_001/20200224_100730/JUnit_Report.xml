@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TSA_Halodoc_001" time="138.207" tests="1" failures="0" errors="0">
+   <testsuite name="TSA_Halodoc_001" tests="1" failures="0" errors="0" time="138.207" timestamp="2020-02-24 10:07:34" hostname="admin - ISGS-FJRR" id="Test Suites/TSA_Halodoc_001">
+      <properties>
+         <property name="deviceName" value="asus ASUS_X017DA (Android 9)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\admin\\git\\HaloddocTest\\Reports\\20200224_100729\\TSA_Halodoc_001\\20200224_100730"/>
+         <property name="logFiles" value="C:\\Users\\admin\\git\\HaloddocTest\\Reports\\20200224_100729\\TSA_Halodoc_001\\20200224_100730\\appium.log, C:\\Users\\admin\\git\\HaloddocTest\\Reports\\20200224_100729\\TSA_Halodoc_001\\20200224_100730\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="admin - ISGS-FJRR"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="appiumServerStatus" value="{\&quot;value\&quot;:{\&quot;build\&quot;:{\&quot;version\&quot;:\&quot;1.15.1\&quot;}},\&quot;sessionId\&quot;:null,\&quot;status\&quot;:0}"/>
+         <property name="katalonVersion" value="7.1.0.1"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.15.1"/>
+         <property name="deviceModel" value="ASUS_X017DA"/>
+         <property name="hostAddress" value="192.168.43.234"/>
+         <property name="deviceManufacturer" value="asus"/>
+         <property name="deviceId" value="J4AXGF06M964C44"/>
+         <property name="deviceName" value="asus ASUS_X017DA (Android 9)"/>
+         <property name="deviceOSVersion" value="9"/>
+      </properties>
+      <testcase name="Test Cases/TestCase Scenario/TSA_001" time="130.118" classname="Test Cases/TestCase Scenario/TSA_001" status="PASSED">
+         <system-out><![CDATA[2020-02-24 10:07:34 - [TEST_CASE][PASSED] - Test Cases/TestCase Scenario/TSA_001: Test Cases/TestCase Scenario/TSA_001
+
+2020-02-24 10:07:34 - [TEST_STEP][PASSED] - callTestCase(findTestCase("TestCase Activity/Provisioning"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/TestCase Activity/Provisioning' successfully
+
+2020-02-24 10:07:35 - [TEST_CASE][PASSED] - Test Cases/TestCase Activity/Provisioning: Test Cases/TestCase Activity/Provisioning
+
+2020-02-24 10:07:35 - [TEST_STEP][PASSED] - startApplication(APK, false): Started app at: 'C:\Users\admin\Documents\Prepare for New Job\halodoc\Halodoc Doctors Medicine Appointments_v6.600_apkpure.com.apk'
+
+2020-02-24 10:07:38 - [MESSAGE][INFO] - Appium server started on port 36,931
+
+2020-02-24 10:07:55 - [MESSAGE][PASSED] - Started app at: 'C:\Users\admin\Documents\Prepare for New Job\halodoc\Halodoc Doctors Medicine Appointments_v6.600_apkpure.com.apk'
+
+2020-02-24 10:07:55 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Provisioning/txtview_NomorPonsel"), 0): Element 'Object Repository/Provisioning/txtview_NomorPonsel' is present
+
+2020-02-24 10:07:55 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-02-24 10:07:56 - [MESSAGE][PASSED] - Element 'Object Repository/Provisioning/txtview_NomorPonsel' is present
+
+2020-02-24 10:07:56 - [TEST_STEP][PASSED] - tap(findTestObject("Provisioning/edittxt_NomorPonsel"), 0): Tapped on element 'Object Repository/Provisioning/edittxt_NomorPonsel'
+
+2020-02-24 10:07:56 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-02-24 10:07:58 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Provisioning/edittxt_NomorPonsel'
+
+2020-02-24 10:07:58 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+2020-02-24 10:08:01 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2020-02-24 10:08:01 - [TEST_STEP][PASSED] - setText(findTestObject("Provisioning/edittxt_PhoneNumVerif"), PhoneNum, 0): Text '081239301331' has been set to element 'Object Repository/Provisioning/edittxt_PhoneNumVerif'
+
+2020-02-24 10:08:02 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-02-24 10:08:03 - [MESSAGE][PASSED] - Text '081239301331' has been set to element 'Object Repository/Provisioning/edittxt_PhoneNumVerif'
+
+2020-02-24 10:08:03 - [TEST_STEP][PASSED] - tap(findTestObject("Provisioning/btn_Verif"), 0): Tapped on element 'Object Repository/Provisioning/btn_Verif'
+
+2020-02-24 10:08:03 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-02-24 10:08:05 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Provisioning/btn_Verif'
+
+2020-02-24 10:08:05 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/TestCase Activity/Provisioning' successfully
+
+2020-02-24 10:08:05 - [TEST_STEP][PASSED] - callTestCase(findTestCase("TestCase Activity/Dashboard"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/TestCase Activity/Dashboard' successfully
+
+2020-02-24 10:08:05 - [TEST_CASE][PASSED] - Test Cases/TestCase Activity/Dashboard: Test Cases/TestCase Activity/Dashboard
+
+2020-02-24 10:08:06 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Dashboard/txtview_Dashboard"), 0): Element 'Object Repository/Dashboard/txtview_Dashboard' is present
+
+2020-02-24 10:08:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-02-24 10:08:18 - [MESSAGE][PASSED] - Element 'Object Repository/Dashboard/txtview_Dashboard' is present
+
+2020-02-24 10:08:18 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/TestCase Activity/Dashboard' successfully
+
+2020-02-24 10:08:18 - [TEST_STEP][PASSED] - callTestCase(findTestCase("TestCase Activity/Location"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/TestCase Activity/Location' successfully
+
+2020-02-24 10:08:18 - [TEST_CASE][PASSED] - Test Cases/TestCase Activity/Location: Test Cases/TestCase Activity/Location
+
+2020-02-24 10:08:19 - [TEST_STEP][PASSED] - tap(findTestObject("Dashboard/btn_ChooseLocDashboard"), 0): Tapped on element 'Object Repository/Dashboard/btn_ChooseLocDashboard'
+
+2020-02-24 10:08:19 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-02-24 10:08:22 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Dashboard/btn_ChooseLocDashboard'
+
+2020-02-24 10:08:22 - [TEST_STEP][PASSED] - tap(findTestObject("Provisioning/btn_OKAddress"), 0): Tapped on element 'Object Repository/Provisioning/btn_OKAddress'
+
+2020-02-24 10:08:22 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-02-24 10:08:24 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Provisioning/btn_OKAddress'
+
+2020-02-24 10:08:24 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/TestCase Activity/Location' successfully
+
+2020-02-24 10:08:24 - [TEST_STEP][PASSED] - callTestCase(findTestCase("TestCase Activity/MedicineMenu"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/TestCase Activity/MedicineMenu' successfully
+
+2020-02-24 10:08:24 - [TEST_CASE][PASSED] - Test Cases/TestCase Activity/MedicineMenu: Test Cases/TestCase Activity/MedicineMenu
+
+2020-02-24 10:08:24 - [TEST_STEP][PASSED] - tap(findTestObject("Dashboard/btn_BuyMedicine"), 0): Tapped on element 'Object Repository/Dashboard/btn_BuyMedicine'
+
+2020-02-24 10:08:24 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-02-24 10:08:27 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Dashboard/btn_BuyMedicine'
+
+2020-02-24 10:08:27 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Medicine Menu/titleview_BuyMedicine"), 0): Element 'Object Repository/Medicine Menu/titleview_BuyMedicine' is present
+
+2020-02-24 10:08:27 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-02-24 10:08:27 - [MESSAGE][PASSED] - Element 'Object Repository/Medicine Menu/titleview_BuyMedicine' is present
+
+2020-02-24 10:08:27 - [TEST_STEP][PASSED] - selectListItemByLabel(findTestObject("Medicine Menu/recyclerview_MedicineMenu"), "Antibiotik", 0): Item labeled 'Antibiotik' of object 'Object Repository/Medicine Menu/recyclerview_MedicineMenu' clicked
+
+2020-02-24 10:08:27 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-02-24 10:08:29 - [MESSAGE][PASSED] - Item labeled 'Antibiotik' of object 'Object Repository/Medicine Menu/recyclerview_MedicineMenu' clicked
+
+2020-02-24 10:08:29 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/TestCase Activity/MedicineMenu' successfully
+
+2020-02-24 10:08:29 - [TEST_STEP][PASSED] - callTestCase(findTestCase("TestCase Activity/ChooseMedicine"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/TestCase Activity/ChooseMedicine' successfully
+
+2020-02-24 10:08:29 - [TEST_CASE][PASSED] - Test Cases/TestCase Activity/ChooseMedicine: Test Cases/TestCase Activity/ChooseMedicine
+
+2020-02-24 10:08:29 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Medicine Menu/ChooseMedicine/titleview_MedicineType"), 0): Element 'Object Repository/Medicine Menu/ChooseMedicine/titleview_MedicineType' is present
+
+2020-02-24 10:08:29 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-02-24 10:08:30 - [MESSAGE][PASSED] - Element 'Object Repository/Medicine Menu/ChooseMedicine/titleview_MedicineType' is present
+
+2020-02-24 10:08:30 - [TEST_STEP][PASSED] - tap(findTestObject("Medicine Menu/ChooseMedicine/txtview_ProductName6"), 0): Tapped on element 'Object Repository/Medicine Menu/ChooseMedicine/txtview_ProductName6'
+
+2020-02-24 10:08:30 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-02-24 10:08:32 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Medicine Menu/ChooseMedicine/txtview_ProductName6'
+
+2020-02-24 10:08:32 - [TEST_STEP][PASSED] - tap(findTestObject("Medicine Menu/ChooseMedicine/btn_AddMedicineDet"), 0): Tapped on element 'Object Repository/Medicine Menu/ChooseMedicine/btn_AddMedicineDet'
+
+2020-02-24 10:08:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-02-24 10:08:33 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Medicine Menu/ChooseMedicine/btn_AddMedicineDet'
+
+2020-02-24 10:08:33 - [TEST_STEP][PASSED] - scrollToText("Aturan pakai", STOP_ON_FAILURE): Scrolling to text 'Aturan pakai' successfully
+
+2020-02-24 10:08:37 - [MESSAGE][PASSED] - Scrolling to text 'Aturan pakai' successfully
+
+2020-02-24 10:08:37 - [TEST_STEP][PASSED] - tap(findTestObject("Medicine Menu/ChooseMedicine/btn_CloseDetailMed"), 0): Tapped on element 'Object Repository/Medicine Menu/ChooseMedicine/btn_CloseDetailMed'
+
+2020-02-24 10:08:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-02-24 10:08:39 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Medicine Menu/ChooseMedicine/btn_CloseDetailMed'
+
+2020-02-24 10:08:39 - [TEST_STEP][PASSED] - swipe(10, 10, 20, 240): Swiped from 10,10 to 20,240
+
+2020-02-24 10:08:40 - [MESSAGE][PASSED] - Swiped from 10,10 to 20,240
+
+2020-02-24 10:08:40 - [TEST_STEP][PASSED] - tap(findTestObject("Medicine Menu/ChooseMedicine/btn_Cart"), 0): Tapped on element 'Object Repository/Medicine Menu/ChooseMedicine/btn_Cart'
+
+2020-02-24 10:08:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-02-24 10:09:18 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Medicine Menu/ChooseMedicine/btn_Cart'
+
+2020-02-24 10:09:18 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/TestCase Activity/ChooseMedicine' successfully
+
+2020-02-24 10:09:18 - [TEST_STEP][PASSED] - callTestCase(findTestCase("TestCase Activity/Cart"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/TestCase Activity/Cart' successfully
+
+2020-02-24 10:09:18 - [TEST_CASE][PASSED] - Test Cases/TestCase Activity/Cart: Test Cases/TestCase Activity/Cart
+
+2020-02-24 10:09:18 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Medicine Menu/CartAndPayment/titleview_Keranjang"), 0): Element 'Object Repository/Medicine Menu/CartAndPayment/titleview_Keranjang' is present
+
+2020-02-24 10:09:18 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-02-24 10:09:18 - [MESSAGE][PASSED] - Element 'Object Repository/Medicine Menu/CartAndPayment/titleview_Keranjang' is present
+
+2020-02-24 10:09:18 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Medicine Menu/CartAndPayment/btn_ItemCart1"), 0): Element 'Object Repository/Medicine Menu/CartAndPayment/btn_ItemCart1' is present
+
+2020-02-24 10:09:18 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-02-24 10:09:19 - [MESSAGE][PASSED] - Element 'Object Repository/Medicine Menu/CartAndPayment/btn_ItemCart1' is present
+
+2020-02-24 10:09:19 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Medicine Menu/CartAndPayment/txtview_CurrentAddress"), 0): Element 'Object Repository/Medicine Menu/CartAndPayment/txtview_CurrentAddress' is present
+
+2020-02-24 10:09:19 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-02-24 10:09:19 - [MESSAGE][PASSED] - Element 'Object Repository/Medicine Menu/CartAndPayment/txtview_CurrentAddress' is present
+
+2020-02-24 10:09:19 - [TEST_STEP][PASSED] - tap(findTestObject("Medicine Menu/CartAndPayment/btn_ContinueOrder"), 0): Tapped on element 'Object Repository/Medicine Menu/CartAndPayment/btn_ContinueOrder'
+
+2020-02-24 10:09:19 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-02-24 10:09:21 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Medicine Menu/CartAndPayment/btn_ContinueOrder'
+
+2020-02-24 10:09:21 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Medicine Menu/CartAndPayment/titleview_Payment"), 0): Element 'Object Repository/Medicine Menu/CartAndPayment/titleview_Payment' is present
+
+2020-02-24 10:09:21 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-02-24 10:09:21 - [MESSAGE][PASSED] - Element 'Object Repository/Medicine Menu/CartAndPayment/titleview_Payment' is present
+
+2020-02-24 10:09:21 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Medicine Menu/CartAndPayment/txtview_TotalPrice"), 0): Element 'Object Repository/Medicine Menu/CartAndPayment/txtview_TotalPrice' is present
+
+2020-02-24 10:09:21 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-02-24 10:09:22 - [MESSAGE][PASSED] - Element 'Object Repository/Medicine Menu/CartAndPayment/txtview_TotalPrice' is present
+
+2020-02-24 10:09:22 - [TEST_STEP][PASSED] - tap(findTestObject("Medicine Menu/CartAndPayment/btn_GopayPayment"), 0): Tapped on element 'Object Repository/Medicine Menu/CartAndPayment/btn_GopayPayment'
+
+2020-02-24 10:09:22 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-02-24 10:09:23 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Medicine Menu/CartAndPayment/btn_GopayPayment'
+
+2020-02-24 10:09:23 - [TEST_STEP][PASSED] - tap(findTestObject("Medicine Menu/btn_Back"), 0): Tapped on element 'Object Repository/Medicine Menu/btn_Back'
+
+2020-02-24 10:09:23 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-02-24 10:09:24 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Medicine Menu/btn_Back'
+
+2020-02-24 10:09:24 - [TEST_STEP][PASSED] - tap(findTestObject("Medicine Menu/CartAndPayment/btn_MoreOption"), 0): Tapped on element 'Object Repository/Medicine Menu/CartAndPayment/btn_MoreOption'
+
+2020-02-24 10:09:25 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-02-24 10:09:26 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Medicine Menu/CartAndPayment/btn_MoreOption'
+
+2020-02-24 10:09:26 - [TEST_STEP][PASSED] - tap(findTestObject("Medicine Menu/CartAndPayment/btn_EmptyCart"), 0): Tapped on element 'Object Repository/Medicine Menu/CartAndPayment/btn_EmptyCart'
+
+2020-02-24 10:09:26 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-02-24 10:09:28 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Medicine Menu/CartAndPayment/btn_EmptyCart'
+
+2020-02-24 10:09:28 - [TEST_STEP][PASSED] - tap(findTestObject("Medicine Menu/btn_Back"), 0): Tapped on element 'Object Repository/Medicine Menu/btn_Back'
+
+2020-02-24 10:09:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-02-24 10:09:30 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Medicine Menu/btn_Back'
+
+2020-02-24 10:09:30 - [TEST_STEP][PASSED] - tap(findTestObject("Medicine Menu/btn_Back"), 0): Tapped on element 'Object Repository/Medicine Menu/btn_Back'
+
+2020-02-24 10:09:30 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-02-24 10:09:31 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Medicine Menu/btn_Back'
+
+2020-02-24 10:09:31 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/TestCase Activity/Cart' successfully
+
+2020-02-24 10:09:31 - [TEST_STEP][PASSED] - callTestCase(findTestCase("TestCase Activity/Logout"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/TestCase Activity/Logout' successfully
+
+2020-02-24 10:09:31 - [TEST_CASE][PASSED] - Test Cases/TestCase Activity/Logout: Test Cases/TestCase Activity/Logout
+
+2020-02-24 10:09:32 - [TEST_STEP][PASSED] - tap(findTestObject("Dashboard/btn_More"), 0): Tapped on element 'Object Repository/Dashboard/btn_More'
+
+2020-02-24 10:09:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-02-24 10:09:33 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Dashboard/btn_More'
+
+2020-02-24 10:09:33 - [TEST_STEP][PASSED] - tap(findTestObject("Logout/btn_Logout"), 0): Tapped on element 'Object Repository/Logout/btn_Logout'
+
+2020-02-24 10:09:33 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-02-24 10:09:37 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Logout/btn_Logout'
+
+2020-02-24 10:09:37 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Logout/txtview_LogoutTitle"), 0): Element 'Object Repository/Logout/txtview_LogoutTitle' is present
+
+2020-02-24 10:09:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-02-24 10:09:37 - [MESSAGE][PASSED] - Element 'Object Repository/Logout/txtview_LogoutTitle' is present
+
+2020-02-24 10:09:37 - [TEST_STEP][PASSED] - tap(findTestObject("Logout/btn_Yes"), 0): Tapped on element 'Object Repository/Logout/btn_Yes'
+
+2020-02-24 10:09:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-02-24 10:09:38 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Logout/btn_Yes'
+
+2020-02-24 10:09:38 - [TEST_STEP][PASSED] - delay(5, STOP_ON_FAILURE): Delayed 5 second(s)
+
+2020-02-24 10:09:43 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2020-02-24 10:09:43 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+2020-02-24 10:09:44 - [MESSAGE][PASSED] - Close app successfully
+
+2020-02-24 10:09:44 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/TestCase Activity/Logout' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-02-24 10:07:34 - [TEST_SUITE][PASSED] - TSA_Halodoc_001: Test Cases/TestCase Scenario/TSA_001]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

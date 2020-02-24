@@ -17,8 +17,6 @@ import internal.GlobalVariable as GlobalVariable
 
 Mobile.tap(findTestObject('Dashboard/btn_More'), 0)
 
-Mobile.waitForElementPresent(findTestObject('Logout/titleview_Lainnya'), 0)
-
 Mobile.tap(findTestObject('Logout/btn_Logout'), 0)
 
 Mobile.waitForElementPresent(findTestObject('Logout/txtview_LogoutTitle'), 0)

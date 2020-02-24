@@ -17,11 +17,5 @@ import internal.GlobalVariable as GlobalVariable
 
 Mobile.tap(findTestObject('Dashboard/btn_ChooseLocDashboard'), 0)
 
-Mobile.tap(findTestObject('Provisioning/btn_SearchLoc'), 0)
-
-Mobile.waitForElementAttributeValue(findTestObject('Provisioning/edittxt_SearchLoc'), '', '', 0)
-
-Mobile.tap(findTestObject('Provisioning/txtview_LocAddress1'), 0)
-
 Mobile.tap(findTestObject('Provisioning/btn_OKAddress'), 0)
 

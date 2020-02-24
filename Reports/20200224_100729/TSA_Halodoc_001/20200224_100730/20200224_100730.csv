@@ -1,0 +1,11 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TSA_Halodoc_001,,,,2020-02-24 10:07:34,2020-02-24 10:09:44,2m - 10.472s,PASSED
+,,,,,,,
+Test Cases/TestCase Scenario/TSA_001,,,,2020-02-24 10:07:34,2020-02-24 10:09:44,2m - 10.118s,PASSED
+"callTestCase(findTestCase(""TestCase Activity/Provisioning""), [:], STOP_ON_FAILURE)",,,,2020-02-24 10:07:34,2020-02-24 10:08:05,30.973s,PASSED
+"callTestCase(findTestCase(""TestCase Activity/Dashboard""), [:], STOP_ON_FAILURE)",,,,2020-02-24 10:08:05,2020-02-24 10:08:18,13.012s,PASSED
+"callTestCase(findTestCase(""TestCase Activity/Location""), [:], STOP_ON_FAILURE)",,,,2020-02-24 10:08:18,2020-02-24 10:08:24,5.662s,PASSED
+"callTestCase(findTestCase(""TestCase Activity/MedicineMenu""), [:], STOP_ON_FAILURE)",,,,2020-02-24 10:08:24,2020-02-24 10:08:29,4.631s,PASSED
+"callTestCase(findTestCase(""TestCase Activity/ChooseMedicine""), [:], STOP_ON_FAILURE)",,,,2020-02-24 10:08:29,2020-02-24 10:09:18,49.064s,PASSED
+"callTestCase(findTestCase(""TestCase Activity/Cart""), [:], STOP_ON_FAILURE)",,,,2020-02-24 10:09:18,2020-02-24 10:09:31,13.615s,PASSED
+"callTestCase(findTestCase(""TestCase Activity/Logout""), [:], STOP_ON_FAILURE)",,,,2020-02-24 10:09:31,2020-02-24 10:09:44,12.759s,PASSED
