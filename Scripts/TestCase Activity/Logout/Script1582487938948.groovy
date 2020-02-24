@@ -15,17 +15,22 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-Mobile.tap(findTestObject('Dashboard/btn_More'), 0)
+def btnMore = findTestObject('Dashboard/btn_More')
+def btnLogout = findTestObject('Logout/btn_Logout')
+def titleLogout = findTestObject('Logout/txtview_LogoutTitle')
+def btnYes = findTestObject('Logout/btn_Yes')
+
+Mobile.tap(btnMore, 0)
 
 Mobile.takeScreenshot('MoreMenu.png', FailureHandling.STOP_ON_FAILURE)
 
-Mobile.tap(findTestObject('Logout/btn_Logout'), 0)
+Mobile.tap(btnLogout, 0)
 
-Mobile.waitForElementPresent(findTestObject('Logout/txtview_LogoutTitle'), 0)
+Mobile.waitForElementPresent(titleLogout, 0)
 
 Mobile.takeScreenshot('LogoutConfirm.png', FailureHandling.STOP_ON_FAILURE)
 
-Mobile.tap(findTestObject('Logout/btn_Yes'), 0)
+Mobile.tap(btnYes, 0)
 
 Mobile.takeScreenshot('AfterLogout.png', FailureHandling.STOP_ON_FAILURE)
 

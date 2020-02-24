@@ -15,11 +15,15 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-Mobile.tap(findTestObject('Dashboard/btn_BuyMedicine'), 0)
+def btnMedicineMenu = findTestObject('Dashboard/btn_BuyMedicine')
+def titleMedicineMenu = findTestObject('Medicine Menu/titleview_BuyMedicine')
+def listMedicineMenu = findTestObject('Medicine Menu/recyclerview_MedicineMenu')
 
-Mobile.waitForElementPresent(findTestObject('Medicine Menu/titleview_BuyMedicine'), 0)
+Mobile.tap(btnMedicineMenu, 0)
+
+Mobile.waitForElementPresent(titleMedicineMenu, 0)
 
 Mobile.takeScreenshot('MedicineMenu.png', FailureHandling.STOP_ON_FAILURE)
 
-Mobile.selectListItemByLabel(findTestObject('Medicine Menu/recyclerview_MedicineMenu'), 'Antibiotik', 0)
+Mobile.selectListItemByLabel(listMedicineMenu, 'Antibiotik', 0)
 

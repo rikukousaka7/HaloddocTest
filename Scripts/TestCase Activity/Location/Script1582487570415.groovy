@@ -15,9 +15,12 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-Mobile.tap(findTestObject('Dashboard/btn_ChooseLocDashboard'), 0)
+def btnLocation = findTestObject('Dashboard/btn_ChooseLocDashboard')
+def btnOkeLoc = findTestObject('Provisioning/btn_OKAddress')
+
+Mobile.tap(btnLocation, 0)
 
 Mobile.takeScreenshot('Location.png', FailureHandling.STOP_ON_FAILURE)
 
-Mobile.tap(findTestObject('Provisioning/btn_OKAddress'), 0)
+Mobile.tap(btnOkeLoc, 0)
 

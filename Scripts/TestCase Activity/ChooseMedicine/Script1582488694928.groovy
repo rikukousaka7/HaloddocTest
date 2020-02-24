@@ -15,23 +15,29 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-Mobile.waitForElementPresent(findTestObject('Medicine Menu/ChooseMedicine/titleview_MedicineType'), 0)
+def titleMedicineType = findTestObject('Medicine Menu/ChooseMedicine/titleview_MedicineType')
+def Item6 = findTestObject('Medicine Menu/ChooseMedicine/txtview_ProductName6')
+def btnAddItem = findTestObject('Medicine Menu/ChooseMedicine/btn_AddMedicineDet')
+def btnClose = findTestObject('Medicine Menu/ChooseMedicine/btn_CloseDetailMed')
+def btnCart = findTestObject('Medicine Menu/ChooseMedicine/btn_Cart')
+
+Mobile.waitForElementPresent(titleMedicineType, 0)
 
 Mobile.takeScreenshot('ChooseMedicine.png', FailureHandling.STOP_ON_FAILURE)
 
-Mobile.tap(findTestObject('Medicine Menu/ChooseMedicine/txtview_ProductName6'), 0)
+Mobile.tap(Item6, 0)
 
-Mobile.tap(findTestObject('Medicine Menu/ChooseMedicine/btn_AddMedicineDet'), 0)
+Mobile.tap(btnAddItem, 0)
 
 Mobile.takeScreenshot('MedicineDetail.png', FailureHandling.STOP_ON_FAILURE)
 
 Mobile.scrollToText('Aturan pakai', FailureHandling.STOP_ON_FAILURE)
 
-Mobile.tap(findTestObject('Medicine Menu/ChooseMedicine/btn_CloseDetailMed'), 0)
+Mobile.tap(btnClose, 0)
 
 Mobile.swipe(10, 10, 20, 240)
 
 Mobile.takeScreenshot('AfterChooseMedicine.png', FailureHandling.STOP_ON_FAILURE)
 
-Mobile.tap(findTestObject('Medicine Menu/ChooseMedicine/btn_Cart'), 0)
+Mobile.tap(btnCart, 0)
 
